@@ -782,7 +782,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 1550 2450 1550
 $Comp
-L Regulator_Linear:LM317_3PinPackage U6
+L Regulator_Linear:LM317_TO-252 U6
 U 1 1 5E33A8F8
 P 1850 1250
 F 0 "U6" H 1850 1500 50  0000 C CNN
@@ -881,11 +881,11 @@ Wire Wire Line
 Connection ~ 4750 1700
 Connection ~ 4150 2300
 $Comp
-L MCU_Microchip_ATmega:ATmega328-AU U7
+L MCU_Microchip_ATmega:ATmega328P-A U7
 U 1 1 65646AA1
 P 4750 3200
 F 0 "U7" H 4600 3300 50  0000 C CNN
-F 1 "ATmega328-AU" H 4650 2300 50  0000 C CNN
+F 1 "ATmega328P-AU" H 4650 2300 50  0000 C CNN
 F 2 "pypilot_footprints:TQFP-32_7x7mm_P0.8mm" H 4750 3200 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 4750 3200 50  0001 C CNN
 F 4 "C14877" H 4750 3200 50  0001 C CNN "LCSC"
