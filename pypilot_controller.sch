@@ -310,7 +310,7 @@ F 4 " C29823" H 9950 3150 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR021
+L pypilot_components:VCC #PWR021
 U 1 1 5A9874C4
 P 2250 1200
 F 0 "#PWR021" H 2250 1050 50  0001 C CNN
@@ -342,7 +342,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 4350 8750 2950
 $Comp
-L power:VCC #PWR022
+L pypilot_components:VCC #PWR022
 U 1 1 5A9CC524
 P 7350 2750
 F 0 "#PWR022" H 7350 2600 50  0001 C CNN
@@ -561,7 +561,7 @@ F 4 "C2935871" H 1750 1200 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0125
+L pypilot_components:VCC #PWR0125
 U 1 1 5E31E793
 P 2400 3550
 F 0 "#PWR0125" H 2400 3400 50  0001 C CNN
