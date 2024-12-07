@@ -4131,7 +4131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "TPSMB18CA"
 			(at 195.8848 88.3412 0)
 			(effects
 				(font
@@ -4721,7 +4721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TVS"
+		(property "Value" "SM6T18CA"
 			(at 48.8188 42.2148 0)
 			(effects
 				(font
