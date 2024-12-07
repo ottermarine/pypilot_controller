@@ -1415,7 +1415,7 @@
     )
   )
 
-  (module wp_footprints:DO-214AC (layer F.Cu) (tedit 5E2F6E28) (tstamp 5EAEE6ED)
+  (module Diode_SMD:D_SMA (layer F.Cu) (tedit 5E2F6E28) (tstamp 5EAEE6ED)
     (at 24.7614 3.911 180)
     (path /5AB669A9)
     (attr smd)
@@ -1462,7 +1462,7 @@
       (net 4 "Net-(C5-Pad1)"))
   )
 
-  (module wp_footprints:DO-214AC (layer F.Cu) (tedit 5E2F6E28) (tstamp 5EAEE7B1)
+  (module Diode_SMD:D_SMA (layer F.Cu) (tedit 5E2F6E28) (tstamp 5EAEE7B1)
     (at 38.6842 3.8354 180)
     (path /5AB6F720)
     (attr smd)
@@ -2154,7 +2154,7 @@
       (net 57 "Net-(C1-Pad2)"))
   )
 
-  (module pypilot_controller_footprints:Resistor_Horizontal_RM10mm (layer F.Cu) (tedit 5E2E8C73) (tstamp 6648F612)
+  (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal (layer F.Cu) (tedit 5E2E8C73) (tstamp 6648F612)
     (at 43.9366 29.0322 180)
     (descr "Resistor, Axial,  RM 10mm, 1/3W")
     (tags "Resistor Axial RM 10mm 1/3W")
@@ -2182,7 +2182,7 @@
     )
   )
 
-  (module pypilot_footprints:SOT-23-5 (layer F.Cu) (tedit 6570CD31) (tstamp 66498A66)
+  (module Package_TO_SOT_SMD:SOT-23-5 (layer F.Cu) (tedit 6570CD31) (tstamp 66498A66)
     (at 61.1886 43.2394 90)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -2224,7 +2224,7 @@
     )
   )
 
-  (module pypilot_footprints:SOT-23-5 (layer F.Cu) (tedit 6570CD31) (tstamp 66497D54)
+  (module Package_TO_SOT_SMD:SOT-23-5 (layer F.Cu) (tedit 6570CD31) (tstamp 66497D54)
     (at 71.2724 43.8658)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -2266,7 +2266,7 @@
     )
   )
 
-  (module pypilot_footprints:SOT-23-5 (layer F.Cu) (tedit 6570CD31) (tstamp 66494391)
+  (module Package_TO_SOT_SMD:SOT-23-5 (layer F.Cu) (tedit 6570CD31) (tstamp 66494391)
     (at 67.0814 41.2242 270)
     (descr "5-pin SOT23 package")
     (tags SOT-23-5)
@@ -2308,7 +2308,7 @@
     )
   )
 
-  (module pypilot_footprints:SO-5_4.4x3.6mm_P1.27mm (layer F.Cu) (tedit 662B13A8) (tstamp 66494349)
+  (module Package_SO:SO-5_4.4x3.6mm_P1.27mm (layer F.Cu) (tedit 662B13A8) (tstamp 66494349)
     (at 59.309 34.6706 90)
     (descr "5-Lead Plastic Small Outline (SO), see https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true")
     (tags "SO SOIC 1.27")
@@ -2357,7 +2357,7 @@
     )
   )
 
-  (module pypilot_footprints:SO-5_4.4x3.6mm_P1.27mm (layer F.Cu) (tedit 662B13A8) (tstamp 66495293)
+  (module Package_SO:SO-5_4.4x3.6mm_P1.27mm (layer F.Cu) (tedit 662B13A8) (tstamp 66495293)
     (at 63.6524 34.671 270)
     (descr "5-Lead Plastic Small Outline (SO), see https://docs.broadcom.com/cs/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Content-Type&blobheadername3=MDT-Type&blobheadervalue1=attachment%3Bfilename%3DIPD-Selection-Guide_AV00-0254EN_030617.pdf&blobheadervalue2=application%2Fx-download&blobheadervalue3=abinary%253B%2Bcharset%253DUTF-8&blobkey=id&blobnocache=true&blobtable=MungoBlobs&blobwhere=1430884105675&ssbinary=true")
     (tags "SO SOIC 1.27")
@@ -2658,7 +2658,7 @@
     )
   )
 
-  (module pypilot_footprints:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 66550E73) (tstamp 6655B45E)
+  (module Capacitor_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 66550E73) (tstamp 6655B45E)
     (at 11.749967 18.374433 45)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
@@ -2881,7 +2881,7 @@
     )
   )
 
-  (module pypilot_footprints:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 66550E73) (tstamp 6655B529)
+  (module Capacitor_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 66550E73) (tstamp 6655B529)
     (at 22.443367 18.501433 45)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
@@ -3164,7 +3164,7 @@
       (net 25 "Net-(C6-Pad2)"))
   )
 
-  (module pypilot_footprints:PinHeader_2x03_P2.54mm_Vertical_SMD (layer F.Cu) (tedit 65B0CFCD) (tstamp 6655B609)
+  (module Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD (layer F.Cu) (tedit 65B0CFCD) (tstamp 6655B609)
     (at 72.0598 29.6164 270)
     (descr "surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Surface mounted pin header SMD 2x03 2.54mm double row")
@@ -3236,7 +3236,7 @@
     )
   )
 
-  (module pypilot_footprints:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 6570F62E) (tstamp 6655B6C5)
+  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 6570F62E) (tstamp 6655B6C5)
     (at 25.1864 8.266 270)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
@@ -3287,7 +3287,7 @@
     )
   )
 
-  (module pypilot_footprints:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 6570F62E) (tstamp 6655B6DE)
+  (module Package_SO:SOIC-8_3.9x4.9mm_P1.27mm (layer F.Cu) (tedit 6570F62E) (tstamp 6655B6DE)
     (at 36.3412 8.2406 270)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
@@ -3338,7 +3338,7 @@
     )
   )
 
-  (module pypilot_footprints:SOT-223-3_TabPin2_180 (layer F.Cu) (tedit 66022CF1) (tstamp 6655B6F7)
+  (module Package_TO_SOT_SMD:SOT-223-3_TabPin2 (layer F.Cu) (tedit 66022CF1) (tstamp 6655B6F7)
     (at 60.579 6.0452)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
@@ -3381,7 +3381,7 @@
     )
   )
 
-  (module pypilot_footprints:TQFP-32_7x7mm_P0.8mm (layer F.Cu) (tedit 65B0CB4E) (tstamp 6655B70C)
+  (module Package_QFP:TQFP-32_7x7mm_P0.8mm (layer F.Cu) (tedit 65B0CB4E) (tstamp 6655B70C)
     (at 60.0456 18.034 90)
     (descr "32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
@@ -3505,7 +3505,7 @@
       (net 24 "Net-(C5-Pad2)"))
   )
 
-  (module pypilot_footprints:TO-252-2 (layer F.Cu) (tedit 6655131D) (tstamp 6655D4A6)
+  (module Package_TO_SOT_SMD:TO-252-2 (layer F.Cu) (tedit 6655131D) (tstamp 6655D4A6)
     (at 12.1158 9.398)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
@@ -3561,7 +3561,7 @@
     )
   )
 
-  (module pypilot_footprints:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D557)
+  (module Package_TO_SOT_SMD:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D557)
     (at 45.9232 31.8516 90)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
@@ -3617,7 +3617,7 @@
     )
   )
 
-  (module pypilot_footprints:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D62B)
+  (module Package_TO_SOT_SMD:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D62B)
     (at 35.1106 34.4922 270)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
@@ -3673,7 +3673,7 @@
     )
   )
 
-  (module pypilot_footprints:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D745)
+  (module Package_TO_SOT_SMD:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D745)
     (at 21.7248 34.4414 270)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
@@ -3729,7 +3729,7 @@
     )
   )
 
-  (module pypilot_footprints:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D862)
+  (module Package_TO_SOT_SMD:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D862)
     (at 44.5018 23.023 180)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
@@ -3785,7 +3785,7 @@
     )
   )
 
-  (module pypilot_footprints:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D959)
+  (module Package_TO_SOT_SMD:TO-252-2_270 (layer F.Cu) (tedit 665512E9) (tstamp 6655D959)
     (at 32.1818 25.6032 180)
     (descr "TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
     (tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")

@@ -1991,6 +1991,7 @@
 		)
 	)
 	(symbol
+		(lib_name "pypilot_components:tlp2361")
 		(lib_id "pypilot_components:tlp2361")
 		(at 182.88 40.64 0)
 		(unit 1)
@@ -2018,7 +2019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:SO-5_4.4x3.6mm_P1.27mm"
+		(property "Footprint" "Package_SO:SO-5_4.4x3.6mm_P1.27mm"
 			(at 180.594 40.64 0)
 			(effects
 				(font
@@ -2071,6 +2072,14 @@
 		)
 		(pin "6"
 			(uuid "d75594dd-8687-4fbb-bd46-d6ba43c0b949")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c/00000000-0000-0000-0000-0000664cd974"
+					(reference "U10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2237,7 +2246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 137.16 43.18 0)
 			(effects
 				(font
@@ -2653,7 +2662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:SO-5_4.4x3.6mm_P1.27mm"
+		(property "Footprint" "Package_SO:SO-5_4.4x3.6mm_P1.27mm"
 			(at 175.006 54.61 0)
 			(effects
 				(font
@@ -2707,6 +2716,14 @@
 		(pin "6"
 			(uuid "aa713b92-e040-49c6-9664-5d1cfb17ef19")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c/00000000-0000-0000-0000-0000664cd974"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "pypilot_components:74AHC1G125")
@@ -2735,7 +2752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 115.57 54.61 0)
 			(effects
 				(font
@@ -2810,7 +2827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 134.62 50.8 0)
 			(effects
 				(font
