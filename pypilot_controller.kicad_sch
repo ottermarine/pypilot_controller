@@ -3994,7 +3994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "wp_footprints:DO-214AA"
+		(property "Footprint" "pypilot_controller_footprints:D_SMB_TVS"
 			(at 194.9196 88.3412 90)
 			(effects
 				(font
@@ -4582,7 +4582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:DO-214AA"
+		(property "Footprint" "pypilot_controller_footprints:D_SMB_TVS"
 			(at 48.8188 41.2496 90)
 			(effects
 				(font
@@ -5083,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "wp_footprints:BladeFuse-CarType"
+		(property "Footprint" "pypilot_controller_footprints:BladeFuse-CarType"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -5225,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:screw_terminal"
+		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
 			(at 33.02 57.15 0)
 			(effects
 				(font
@@ -5299,7 +5299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:screw_terminal"
+		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
 			(at 33.02 30.48 0)
 			(effects
 				(font
@@ -5373,7 +5373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:screw_terminal"
+		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
 			(at 189.23 80.01 0)
 			(effects
 				(font
@@ -5447,7 +5447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_footprints:screw_terminal"
+		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
 			(at 204.47 80.01 0)
 			(effects
 				(font

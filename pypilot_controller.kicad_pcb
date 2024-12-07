@@ -628,7 +628,7 @@
     )
   )
 
-  (module wp_footprints:BladeFuse-CarType (layer F.Cu) (tedit 592B2950) (tstamp 5E9765F5)
+  (module pypilot_controller_footprints:BladeFuse-CarType (layer F.Cu) (tedit 592B2950) (tstamp 5E9765F5)
     (at 6.15 34.44 90)
     (path /5E314E76)
     (attr smd)
@@ -1292,7 +1292,7 @@
     )
   )
 
-  (module wp_footprints:DO-214AA (layer F.Cu) (tedit 4FF97487) (tstamp 5E977547)
+  (module pypilot_controller_footprints:D_SMB_TVS (layer F.Cu) (tedit 4FF97487) (tstamp 5E977547)
     (at 44.05 37.475 180)
     (descr "DO214AC PACKAGE. MONODIRECTIONAL.")
     (tags "DO214AC PACKAGE. MONODIRECTIONAL.")
@@ -3104,7 +3104,7 @@
     )
   )
 
-  (module pypilot_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B5F4)
+  (module pypilot_controller_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B5F4)
     (at 13.9446 44.9834 270)
     (path /5E32F296)
     (attr smd)
@@ -3124,7 +3124,7 @@
       (net 37 "Net-(F1-Pad1)"))
   )
 
-  (module pypilot_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B5FB)
+  (module pypilot_controller_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B5FB)
     (at 24.4202 45.1306 270)
     (path /5E32EE02)
     (attr smd)
@@ -3144,7 +3144,7 @@
       (net 38 "Net-(J2-Pad1)"))
   )
 
-  (module pypilot_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B602)
+  (module pypilot_controller_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B602)
     (at 47.7374 45.0648 270)
     (path /5E3EBC48)
     (attr smd)
@@ -3485,7 +3485,7 @@
     )
   )
 
-  (module pypilot_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B750)
+  (module pypilot_controller_footprints:screw_terminal (layer F.Cu) (tedit 662C2DE1) (tstamp 6655B750)
     (at 37.1494 45.029 270)
     (path /5E3E8D1E)
     (attr smd)
@@ -3841,7 +3841,7 @@
     )
   )
 
-  (module pypilot_footprints:DO-214AA (layer F.Cu) (tedit 4FF97487) (tstamp 6667C6B2)
+  (module pypilot_controller_footprints:D_SMB_TVS (layer F.Cu) (tedit 4FF97487) (tstamp 6667C6B2)
     (at 11.85 31.48926 90)
     (descr "DO214AC PACKAGE. MONODIRECTIONAL.")
     (tags "DO214AC PACKAGE. MONODIRECTIONAL.")

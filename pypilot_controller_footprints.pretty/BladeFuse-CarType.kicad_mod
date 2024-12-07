@@ -1,26 +1,198 @@
-(module BladeFuse-CarType (layer F.Cu) (tedit 61C27F3A)
-  (fp_text reference F1 (at -0.1 -5.2) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value FUSE (at -3.302 -3.5814) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -9.7 2.4) (end -9.7 -2.6) (layer F.SilkS) (width 0.15))
-  (fp_line (start 9.6 2.5) (end -9.6 2.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 9.6 -2.5) (end 9.6 2.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -9.6 -2.5) (end 9.6 -2.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -10 3) (end -10 -3) (layer F.SilkS) (width 0.15))
-  (fp_line (start 10 3) (end -10 3) (layer F.SilkS) (width 0.15))
-  (fp_line (start 10 -3) (end 10 3) (layer F.SilkS) (width 0.15))
-  (fp_line (start -10 -3) (end 10 -3) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0.3 0) (end -0.3 0) (layer F.SilkS) (width 0.15))
-  (pad 1 thru_hole circle (at -2.03 0) (size 3.54 3.54) (drill 2.45) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole circle (at -7.11 -0.1) (size 3.54 3.54) (drill 2.45) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 2.03 0) (size 3.54 3.54) (drill 2.45) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 7.11 0) (size 3.54 3.54) (drill 2.45) (layers *.Cu *.Mask F.SilkS))
-  (model Fuse_Holders_and_Fuses.3dshapes/BladeFuse-CarType.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BladeFuse-CarType"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "F1"
+		(at -0.1 -5.2 0)
+		(layer "F.SilkS")
+		(uuid "846ff34f-ea49-4a4b-ae12-ce7bfc0c9402")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE"
+		(at -3.302 -3.5814 0)
+		(layer "F.Fab")
+		(uuid "caa81ae8-526d-441e-b38d-cd9902f5c7cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "BladeFuse-CarType"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e999427-12e1-4432-9447-807c38400a7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b67ee61c-06a1-4966-9877-c65e6adc9bb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a26ec73b-69db-4be0-ad8b-a3cfbb0a2a57")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10 -3)
+		(end 10 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8089e33b-f93f-45f5-9332-658ef5a9b427")
+	)
+	(fp_line
+		(start -10 3)
+		(end -10 -3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "420a114f-aacc-4223-9ba9-8c47e21c688d")
+	)
+	(fp_line
+		(start -9.7 2.4)
+		(end -9.7 -2.6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d19b2ce0-b489-4023-a2d8-057bb875c6f6")
+	)
+	(fp_line
+		(start -9.6 -2.5)
+		(end 9.6 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5d795c4-4444-4cb4-abd8-04457757cef6")
+	)
+	(fp_line
+		(start 0.3 0)
+		(end -0.3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2014b2f6-8c34-4844-b3d2-c4a457b376b0")
+	)
+	(fp_line
+		(start 9.6 -2.5)
+		(end 9.6 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "976939ca-c63e-437c-8a3e-35e2a932719b")
+	)
+	(fp_line
+		(start 9.6 2.5)
+		(end -9.6 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d4fbed3-5419-4ed3-8c3c-10bba8e7ed12")
+	)
+	(fp_line
+		(start 10 -3)
+		(end 10 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a60b1ad7-9a99-40dc-b00d-a1bec1a3bcb9")
+	)
+	(fp_line
+		(start 10 3)
+		(end -10 3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bdc1c00e-1849-405c-9a00-dfda1095f5ef")
+	)
+	(pad "1" thru_hole circle
+		(at -7.11 -0.1)
+		(size 3.54 3.54)
+		(drill 2.45)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "0d28b3ab-0c75-4424-b925-3025f1d0768f")
+	)
+	(pad "1" thru_hole circle
+		(at -2.03 0)
+		(size 3.54 3.54)
+		(drill 2.45)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "cb18ffc1-1ed0-4485-b225-78028bd75b84")
+	)
+	(pad "2" thru_hole circle
+		(at 2.03 0)
+		(size 3.54 3.54)
+		(drill 2.45)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "b40dc8f4-8a14-4460-aece-b43e2274d902")
+	)
+	(pad "2" thru_hole circle
+		(at 7.11 0)
+		(size 3.54 3.54)
+		(drill 2.45)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "ee170f91-a840-4b4e-9c9e-05f8a78c9150")
+	)
+	(model "Fuse_Holders_and_Fuses.3dshapes/BladeFuse-CarType.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3937 0.3937 0.3937)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
