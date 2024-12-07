@@ -118,6 +118,139 @@
 				)
 			)
 		)
+		(symbol "Device:Fuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Q_NMOS_GDS"
 			(pin_names
 				(offset 0) hide)
@@ -685,7 +818,7 @@
 				)
 			)
 		)
-		(symbol "freetronics_schematic:CAP"
+		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -694,7 +827,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 1.27 2.54 0)
+				(at 0.635 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -702,8 +835,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CAP"
-				(at 1.27 -2.54 0)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -712,22 +845,15 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -736,7 +862,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*_CAP CAP_* SM*"
+			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -745,14 +871,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "CAP_0_1"
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -0.762) (xy 2.54 -0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -760,230 +904,92 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0.762) (xy 2.54 0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "CAP_1_1"
+			(symbol "C_1_1"
 				(pin passive line
-					(at 0 5.08 270)
-					(length 4.318)
+					(at 0 3.81 270)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.318)
+					(at 0 -3.81 90)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "freetronics_schematic:C_POL"
+		(symbol "Device:C_Polarized"
 			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_POL"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CAP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_POL_0_0"
-				(text "+"
-					(at -1.27 2.54 0)
-					(effects
-						(font
-							(size 2.032 2.032)
-						)
-					)
-				)
-			)
-			(symbol "C_POL_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -1.27)
-					(mid 0 -0.5009)
-					(end -2.54 -1.27)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_POL_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 3.81)
-					(name "+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 4.572)
-					(name "-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "freetronics_schematic:FUSE"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "F"
-				(at 1.27 1.27 0)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "FUSE"
-				(at -2.54 -1.27 0)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0.9652 -3.81 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -992,65 +998,114 @@
 					(hide yes)
 				)
 			)
-			(symbol "FUSE_0_1"
-				(arc
-					(start 0 0)
-					(mid -1.905 1.905)
-					(end -3.81 0)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0)
-					(mid 1.905 -1.905)
-					(end 3.81 0)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "FUSE_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at 6.35 0 180)
-					(length 2.54)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
 					(name "~"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1528,7 +1583,7 @@
 					)
 				)
 			)
-			(property "Footprint" "freetronics_footprints:SO08_4mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 5.08 -13.97 0)
 				(effects
 					(font
@@ -1547,6 +1602,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "also ir2101?"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1748,6 +1812,12 @@
 		(uuid "51716d4c-96f2-4f86-8aa7-5fad3da6a24d")
 	)
 	(junction
+		(at 50.8 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54faf130-9879-4dac-9d1b-393b65acd06e")
+	)
+	(junction
 		(at 229.87 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1784,12 +1854,6 @@
 		(uuid "8dcbcd13-161c-4f0b-a7be-6979e6fc835f")
 	)
 	(junction
-		(at 152.4 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9370281d-8656-41c6-bd97-9fc1e3162b6b")
-	)
-	(junction
 		(at 128.27 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1800,12 +1864,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae4487de-1d8b-4321-b314-439f9dc7be3b")
-	)
-	(junction
-		(at 152.4 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5be1122-d918-4670-8208-4d8236075850")
 	)
 	(junction
 		(at 148.59 72.39)
@@ -1860,12 +1918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec176868-5880-453e-a92b-06fb5025c9fa")
-	)
-	(junction
-		(at 50.8 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2776584-4472-46d4-b84b-62b4f4d60c46")
 	)
 	(junction
 		(at 213.36 92.71)
@@ -2035,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 81.28) (xy 234.95 69.85)
+			(xy 234.95 69.85) (xy 234.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2105,6 +2157,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 90.17) (xy 234.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48013f0d-8cc8-446c-a48c-f0f96021f2f0")
+	)
+	(wire
+		(pts
 			(xy 226.06 85.09) (xy 226.06 115.57)
 		)
 		(stroke
@@ -2152,6 +2214,16 @@
 			(type default)
 		)
 		(uuid "587f5466-5cbb-4eca-a68e-f0d826c59860")
+	)
+	(wire
+		(pts
+			(xy 38.1 30.48) (xy 40.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9b099a-e29b-4f54-9625-7f133ff18332")
 	)
 	(wire
 		(pts
@@ -2205,16 +2277,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 82.55) (xy 152.4 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65594035-0cbf-4c53-b61e-ce81b9bc198a")
-	)
-	(wire
-		(pts
 			(xy 148.59 102.87) (xy 152.4 102.87)
 		)
 		(stroke
@@ -2225,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 113.03) (xy 152.4 113.03)
+			(xy 148.59 113.03) (xy 219.71 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 85.09) (xy 229.87 92.71)
+			(xy 229.87 83.82) (xy 229.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 74.93) (xy 229.87 69.85)
+			(xy 229.87 69.85) (xy 229.87 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2435,16 +2497,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 113.03) (xy 219.71 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90136a3a-22dd-4751-bb57-9647bb5eb309")
-	)
-	(wire
-		(pts
 			(xy 50.8 57.15) (xy 50.8 49.53)
 		)
 		(stroke
@@ -2495,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 148.59 82.55)
+			(xy 148.59 82.55) (xy 167.64 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2655,13 +2707,13 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 91.44) (xy 234.95 92.71)
+			(xy 48.26 30.48) (xy 50.8 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c683c023-9211-468d-b707-021f8c604f02")
+		(uuid "c8d0dfb4-3e86-4753-8173-74f27aa3ffaa")
 	)
 	(wire
 		(pts
@@ -3510,7 +3562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:CAP")
+		(lib_id "Device:C")
 		(at 152.4 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3519,7 +3571,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a92bc82")
 		(property "Reference" "C6"
-			(at 153.67 101.6 0)
+			(at 153.035 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3580,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 153.67 104.14 0)
+			(at 153.035 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,23 +3589,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 152.4 107.95 0)
+			(at 153.3652 111.76 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 152.4 107.95 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 152.4 107.95 0)
 			(effects
 				(font
@@ -3587,7 +3640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:CAP")
+		(lib_id "Device:C")
 		(at 152.4 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3596,7 +3649,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a93274f")
 		(property "Reference" "C5"
-			(at 153.67 71.12 0)
+			(at 153.035 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +3658,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 153.67 73.66 0)
+			(at 153.035 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,23 +3667,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 152.4 77.47 0)
+			(at 153.3652 81.28 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 152.4 77.47 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 152.4 77.47 0)
 			(effects
 				(font
@@ -4047,7 +4101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:CAP")
+		(lib_id "Device:C")
 		(at 252.73 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4056,7 +4110,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a95406c")
 		(property "Reference" "C7"
-			(at 254 82.55 0)
+			(at 253.365 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4119,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 254 77.47 0)
+			(at 253.365 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4074,23 +4128,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 252.73 80.01 0)
+			(at 253.6952 83.82 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 252.73 80.01 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 252.73 80.01 0)
 			(effects
 				(font
@@ -4336,7 +4391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:C_POL")
+		(lib_id "Device:C_Polarized")
 		(at 229.87 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4345,7 +4400,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a9a7149")
 		(property "Reference" "C10"
-			(at 226.06 82.55 0)
+			(at 230.505 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4409,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 223.52 74.93 0)
+			(at 230.505 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,10 +4418,10 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 229.87 80.01 0)
+			(at 230.8352 83.82 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4375,12 +4430,12 @@
 			(at 229.87 80.01 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 229.87 80.01 0)
 			(effects
 				(font
@@ -4479,7 +4534,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:C_POL")
+		(lib_id "Device:C_Polarized")
 		(at 234.95 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4488,7 +4543,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a9dc496")
 		(property "Reference" "C9"
-			(at 231.14 88.9 0)
+			(at 235.585 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +4552,7 @@
 			)
 		)
 		(property "Value" "330uF"
-			(at 234.95 82.55 0)
+			(at 235.585 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,23 +4561,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 234.95 86.36 0)
+			(at 235.9152 90.17 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "C487394"
 			(at 234.95 86.36 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 234.95 86.36 0)
 			(effects
 				(font
@@ -4982,7 +5038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:CAP")
+		(lib_id "Device:C")
 		(at 243.84 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4991,7 +5047,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005b2ef3c0")
 		(property "Reference" "C8"
-			(at 245.11 88.9 0)
+			(at 244.475 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5056,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 245.11 83.82 0)
+			(at 244.475 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,23 +5065,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 243.84 86.36 0)
+			(at 244.8052 90.17 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 243.84 86.36 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 243.84 86.36 0)
 			(effects
 				(font
@@ -5059,8 +5116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:FUSE")
-		(at 44.45 30.48 0)
+		(lib_id "Device:Fuse")
+		(at 44.45 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5068,26 +5125,26 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e314e76")
 		(property "Reference" "F1"
-			(at 44.45 24.9682 0)
+			(at 44.45 28.448 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "FUSE"
-			(at 44.45 26.8986 0)
+			(at 44.45 32.385 90)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" "pypilot_controller_footprints:BladeFuse-CarType"
-			(at 44.45 30.48 0)
+			(at 44.45 32.258 90)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5096,12 +5153,12 @@
 			(at 44.45 30.48 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse"
 			(at 44.45 30.48 0)
 			(effects
 				(font
@@ -5496,7 +5553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:CAP")
+		(lib_id "Device:C")
 		(at 123.19 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5505,7 +5562,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eae3d06")
 		(property "Reference" "C18"
-			(at 124.46 77.47 0)
+			(at 123.825 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5571,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 124.46 82.55 0)
+			(at 123.825 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,23 +5580,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 123.19 80.01 0)
+			(at 124.1552 83.82 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 123.19 80.01 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 123.19 80.01 0)
 			(effects
 				(font
@@ -5573,7 +5631,7 @@
 		)
 	)
 	(symbol
-		(lib_id "freetronics_schematic:CAP")
+		(lib_id "Device:C")
 		(at 124.46 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5582,7 +5640,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eaebab2")
 		(property "Reference" "C19"
-			(at 125.73 107.95 0)
+			(at 125.095 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5649,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 125.73 113.03 0)
+			(at 125.095 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,23 +5658,24 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 124.46 110.49 0)
+			(at 125.4252 114.3 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 124.46 110.49 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 124.46 110.49 0)
 			(effects
 				(font

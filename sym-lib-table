@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "uart")(type "KiCad")(uri "${KIPRJMOD}/uart.kicad_sym")(options "")(descr ""))
   (lib (name "pypilot_components")(type "KiCad")(uri "${KIPRJMOD}/pypilot_components.kicad_sym")(options "")(descr ""))
-  (lib (name "freetronics_schematic")(type "KiCad")(uri "${KIPRJMOD}/freetronics_schematic.kicad_sym")(options "")(descr ""))
 )
