@@ -77,8 +77,8 @@
 		)
 		(symbol "74AHC1G125_1_1"
 			(pin input line
-				(at -7.62 0 0)
-				(length 3.81)
+				(at -6.35 0 0)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -95,8 +95,8 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -1.27 270)
-				(length 0.9906)
+				(at 0 -2.54 90)
+				(length 1.54)
 				(name "~"
 					(effects
 						(font
@@ -113,8 +113,8 @@
 				)
 			)
 			(pin output line
-				(at 6.35 0 180)
-				(length 3.81)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "~"
 					(effects
 						(font
@@ -131,8 +131,8 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 1.27 90)
-				(length 0.9906)
+				(at 0 2.54 270)
+				(length 1.54)
 				(name "~"
 					(effects
 						(font
