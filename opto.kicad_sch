@@ -478,7 +478,7 @@
 				)
 			)
 		)
-		(symbol "pypilot_components:74AHC1G125"
+		(symbol "pypilot_components:74LVC1G17"
 			(pin_names
 				(offset 1.016)
 			)
@@ -493,7 +493,7 @@
 					)
 				)
 			)
-			(property "Value" "74AHC1G125"
+			(property "Value" "74LVC1G17"
 				(at -7.62 -3.81 0)
 				(effects
 					(font
@@ -537,7 +537,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "74AHC1G125_0_1"
+			(symbol "74LVC1G17_0_1"
 				(polyline
 					(pts
 						(xy -3.81 2.54) (xy -3.81 -2.54) (xy 2.54 0) (xy -3.81 2.54)
@@ -551,7 +551,7 @@
 					)
 				)
 			)
-			(symbol "74AHC1G125_1_1"
+			(symbol "74LVC1G17_1_1"
 				(pin input line
 					(at -6.35 0 0)
 					(length 2.54)
@@ -1492,6 +1492,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 50.8) (xy 156.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e24fad1-3f3b-4d1c-97b3-2eedc815ecf4")
+	)
+	(wire
+		(pts
 			(xy 115.57 62.23) (xy 134.62 62.23)
 		)
 		(stroke
@@ -1609,16 +1619,6 @@
 			(type default)
 		)
 		(uuid "7732869f-5305-408d-8607-c1f73ab48d42")
-	)
-	(wire
-		(pts
-			(xy 139.7 50.8) (xy 156.21 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7753bf90-b036-4a83-8967-b3cf4a084e38")
 	)
 	(wire
 		(pts
@@ -2260,7 +2260,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pypilot_components:74AHC1G125")
+		(lib_id "pypilot_components:74LVC1G17")
 		(at 139.7 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2780,7 +2780,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pypilot_components:74AHC1G125")
+		(lib_id "pypilot_components:74LVC1G17")
 		(at 115.57 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -2856,7 +2856,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pypilot_components:74AHC1G125")
+		(lib_id "pypilot_components:74LVC1G17")
 		(at 134.62 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)

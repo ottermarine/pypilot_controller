@@ -5156,7 +5156,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Top_Bottom")
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 200.66 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5189,7 +5189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 52.07 0)
 			(effects
 				(font
@@ -5198,7 +5198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 200.66 52.07 0)
 			(effects
 				(font
