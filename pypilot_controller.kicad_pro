@@ -866,6 +866,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "3485d22d-0932-4f13-a5db-09c3f9bc7038",
+      "Root"
+    ],
+    [
+      "00000000-0000-0000-0000-000059d8755c",
+      "sense"
+    ],
+    [
+      "00000000-0000-0000-0000-0000664cd974",
+      "opto"
+    ]
+  ],
   "text_variables": {}
 }
