@@ -3948,6 +3948,14 @@
 		(pin "2"
 			(uuid "0e3a7e90-ed27-45d0-a9e0-afa2e0c59096")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4084,6 +4092,14 @@
 		(pin "2"
 			(uuid "c964a513-6c40-4f01-967a-d72060833f1a")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -4145,6 +4161,14 @@
 		)
 		(pin "2"
 			(uuid "600fa735-131e-4415-a1d8-d2aafb0726f2")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "J8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4213,6 +4237,14 @@
 		)
 		(pin "2"
 			(uuid "1ef7c7e4-7fa6-4a84-a605-0f3182bb98d5")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4344,6 +4376,14 @@
 		)
 		(pin "3"
 			(uuid "515f3cfd-3ee9-4d85-a8c7-7a21e1ca0b5e")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4479,6 +4519,14 @@
 		(pin "2"
 			(uuid "d617e036-edac-4303-b368-bed6f531f838")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4547,6 +4595,14 @@
 		(pin "2"
 			(uuid "34f80ce6-8ec6-424e-8507-69b3079f9fec")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4614,6 +4670,14 @@
 		)
 		(pin "2"
 			(uuid "b26b4f7f-46d9-4ffc-a60f-cfecdf9b307d")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4742,6 +4806,14 @@
 		)
 		(pin "3"
 			(uuid "a28d6823-3b12-489c-9674-c61d7f5cd023")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4942,6 +5014,14 @@
 		)
 		(pin "2"
 			(uuid "220574a6-1401-4ed6-8be4-38a7d43d1ce4")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5234,6 +5314,14 @@
 		(pin "6"
 			(uuid "3332cffa-14f1-416e-8a01-a6459c62ab21")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5447,6 +5535,14 @@
 		(pin "2"
 			(uuid "39df29a9-a23e-4bd4-b36d-94a92f1326ed")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5584,6 +5680,14 @@
 		(pin "2"
 			(uuid "b07946ed-7339-4a1f-a9a0-9c60583bfc0c")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5653,6 +5757,14 @@
 		)
 		(pin "2"
 			(uuid "e485f2f0-3a5a-4102-bbac-67e18f3ad87f")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5791,6 +5903,14 @@
 		(pin "2"
 			(uuid "e109b57c-3f65-4549-a575-d36e89c4676a")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5860,6 +5980,14 @@
 		)
 		(pin "2"
 			(uuid "5300275d-2002-4570-b800-1056c7bfed67")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6350,6 +6478,14 @@
 		(pin "2"
 			(uuid "e91a974a-6330-4e62-aeb7-962472e8dd9e")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6695,6 +6831,14 @@
 		)
 		(pin "3"
 			(uuid "4fd39452-52b3-4f39-bc54-4e69ea1ab03c")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "U6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7381,6 +7525,14 @@
 		(pin "2"
 			(uuid "1d219c32-d5f4-48e2-8a5e-b8485728c7eb")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7515,6 +7667,14 @@
 		(pin "2"
 			(uuid "b95efb69-df15-4cd3-988e-b1117170587c")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7583,6 +7743,14 @@
 		)
 		(pin "2"
 			(uuid "87e87b66-19aa-4b81-9b5a-579cc83a95f9")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7719,6 +7887,14 @@
 		)
 		(pin "2"
 			(uuid "f8de196a-b210-42fe-a6cd-7fccc27a28c8")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7921,6 +8097,14 @@
 		(pin "2"
 			(uuid "76365c91-2ffe-4371-9936-e2daac6102cc")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7990,6 +8174,14 @@
 		)
 		(pin "2"
 			(uuid "7cf4fe8b-3e2c-4381-a510-02012cffa729")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8352,6 +8544,14 @@
 		(pin "3"
 			(uuid "415af6dd-e6a1-4b5b-8f96-91e7ecc7dccc")
 		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega328P-A")
@@ -8510,6 +8710,14 @@
 		)
 		(pin "9"
 			(uuid "8b49d5a5-b8a6-4183-828f-5f120a839ae1")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038/00000000-0000-0000-0000-000059d8755c"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet
