@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,13 +62,14 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr smd)
 	(fp_line
-		(start -3.66 -2.15)
-		(end 3.66 -2.15)
+		(start -3.6 -1.9)
+		(end 3.6 -1.9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -75,8 +78,8 @@
 		(uuid "675dcf5c-0c71-4c56-a7c1-0be73e497562")
 	)
 	(fp_line
-		(start -3.66 2.15)
-		(end 3.66 2.15)
+		(start -3.6 1.9)
+		(end 3.6 1.9)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +88,8 @@
 		(uuid "a8c3511f-c5ef-422a-bde2-a645c0a027c3")
 	)
 	(fp_line
-		(start -3.65 -2.25)
-		(end 3.65 -2.25)
+		(start -3.65 -1.95)
+		(end 3.65 -1.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -95,8 +98,8 @@
 		(uuid "ab8b4969-714b-4955-9579-c6a5e30b272c")
 	)
 	(fp_line
-		(start -3.65 2.25)
-		(end -3.65 -2.25)
+		(start -3.65 1.95)
+		(end -3.65 -1.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +108,8 @@
 		(uuid "2333ce76-1b04-48e5-920d-068e61f5928a")
 	)
 	(fp_line
-		(start 3.65 -2.25)
-		(end 3.65 2.25)
+		(start 3.65 -1.95)
+		(end 3.65 1.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -115,8 +118,8 @@
 		(uuid "e0c7dc52-9484-485d-bf59-369d9c7066c4")
 	)
 	(fp_line
-		(start 3.65 2.25)
-		(end -3.65 2.25)
+		(start 3.65 1.95)
+		(end -3.65 1.95)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -125,8 +128,8 @@
 		(uuid "51d4f2cd-dabe-47e4-a4f8-7d5aa8ff01dc")
 	)
 	(fp_line
-		(start -2.3 2)
-		(end -2.3 -2)
+		(start -2.3 1.8)
+		(end -2.3 -1.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -245,8 +248,8 @@
 		(uuid "ea82d2b3-4a25-46ed-8e00-ba306cbd4459")
 	)
 	(fp_line
-		(start 2.3 -2)
-		(end -2.3 -2)
+		(start 2.3 -1.8)
+		(end -2.3 -1.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -255,8 +258,8 @@
 		(uuid "1390ce5e-2bb1-4947-a789-9ddedb18bc30")
 	)
 	(fp_line
-		(start 2.3 -2)
-		(end 2.3 2)
+		(start 2.3 -1.8)
+		(end 2.3 1.8)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -265,8 +268,8 @@
 		(uuid "cbe62b49-a7cf-4c34-abd0-a58834711ccf")
 	)
 	(fp_line
-		(start 2.3 2)
-		(end -2.3 2)
+		(start 2.3 1.8)
+		(end -2.3 1.8)
 		(stroke
 			(width 0.1)
 			(type solid)
