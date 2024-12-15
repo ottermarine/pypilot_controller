@@ -224,6 +224,24 @@
 			)
 		)
 		(symbol "74LVC1G17_1_1"
+			(pin no_connect line
+				(at 0.635 2.35 270)
+				(length 1.54) hide
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -6.35 0 0)
 				(length 2.54)
@@ -243,8 +261,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 90)
-				(length 1.54)
+				(at -1.27 -3.81 90)
+				(length 2.25)
 				(name "~"
 					(effects
 						(font
@@ -279,8 +297,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 2.54 270)
-				(length 1.54)
+				(at -1.27 3.81 270)
+				(length 2.25)
 				(name "~"
 					(effects
 						(font
