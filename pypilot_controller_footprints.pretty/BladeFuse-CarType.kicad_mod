@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "F1"
-		(at -0.1 -5.2 0)
+		(at 0 -3.7 0)
 		(layer "F.SilkS")
 		(uuid "846ff34f-ea49-4a4b-ae12-ce7bfc0c9402")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "FUSE"
-		(at -3.302 -3.5814 0)
+		(at -3.302 -3.7 0)
 		(layer "F.Fab")
 		(uuid "caa81ae8-526d-441e-b38d-cd9902f5c7cb")
 		(effects
@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -153,10 +156,10 @@
 		(uuid "bdc1c00e-1849-405c-9a00-dfda1095f5ef")
 	)
 	(pad "1" thru_hole circle
-		(at -7.11 -0.1)
+		(at -7.11 0)
 		(size 3.54 3.54)
 		(drill 2.45)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0d28b3ab-0c75-4424-b925-3025f1d0768f")
 	)
@@ -164,7 +167,7 @@
 		(at -2.03 0)
 		(size 3.54 3.54)
 		(drill 2.45)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "cb18ffc1-1ed0-4485-b225-78028bd75b84")
 	)
@@ -172,7 +175,7 @@
 		(at 2.03 0)
 		(size 3.54 3.54)
 		(drill 2.45)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b40dc8f4-8a14-4460-aece-b43e2274d902")
 	)
@@ -180,7 +183,7 @@
 		(at 7.11 0)
 		(size 3.54 3.54)
 		(drill 2.45)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ee170f91-a840-4b4e-9c9e-05f8a78c9150")
 	)
