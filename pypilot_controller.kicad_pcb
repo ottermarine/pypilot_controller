@@ -1491,7 +1491,7 @@
 		(property "Reference" "F1"
 			(at 4.47 -1.5 90)
 			(layer "F.SilkS")
-			(uuid "9a2e356b-ffea-4565-970f-db3c9e70c2db")
+			(uuid "3439b877-149a-4e4a-8745-e6e3c4e984e3")
 			(effects
 				(font
 					(size 1 1)
@@ -1502,7 +1502,7 @@
 		(property "Value" "FUSE"
 			(at -3.302 -3.5814 90)
 			(layer "F.Fab")
-			(uuid "c948f752-a325-42e6-9fda-609f8a5c4d36")
+			(uuid "d258a3cc-afb2-4f74-9113-65bd2d57df98")
 			(effects
 				(font
 					(size 1 1)
@@ -1515,7 +1515,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57ad341a-ed48-4491-8d10-41eb8e9fc250")
+			(uuid "abe7df53-9859-476e-b2fa-d88057ab01af")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1528,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a50be0d-2d3d-4274-a0d8-57e809333c93")
+			(uuid "e35dc915-769b-4c17-adae-760c6d80f81d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,7 +1541,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9af281c3-6e19-431b-9125-063e0865280b")
+			(uuid "57685b9f-8b63-46d1-b92c-23b2b60daf5c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1566,7 @@
 		(path "/00000000-0000-0000-0000-00005e314e76")
 		(sheetname "Root")
 		(sheetfile "pypilot_controller.kicad_sch")
-		(attr smd)
+		(attr through_hole)
 		(fp_line
 			(start 10 -3)
 			(end 10 3)
@@ -1575,7 +1575,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8c674157-0ffe-4ffa-96e3-932e8080d223")
+			(uuid "b721a709-9475-498f-854e-d0d95ebfa687")
 		)
 		(fp_line
 			(start -10 -3)
@@ -1585,7 +1585,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2e901111-2d88-489f-b697-847eb5048f76")
+			(uuid "051ae3df-3605-4b5c-9b4a-ddb04f149194")
 		)
 		(fp_line
 			(start 9.6 -2.5)
@@ -1595,7 +1595,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6caeb61f-a440-48fb-b66d-d3e94234244d")
+			(uuid "8d69a89a-4a43-4598-910a-a78c8674b60d")
 		)
 		(fp_line
 			(start -9.6 -2.5)
@@ -1605,7 +1605,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d4ce5249-2c62-45cd-abdb-7d580e44ee70")
+			(uuid "8abb5b49-b1e3-46aa-a62a-8d2e73a99b7b")
 		)
 		(fp_line
 			(start 0.3 0)
@@ -1615,7 +1615,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bba29e7a-509d-4dae-bae4-1a112e82ea16")
+			(uuid "0fc7775d-ad55-42f8-90a3-f038d4be3f3e")
 		)
 		(fp_line
 			(start -9.7 2.4)
@@ -1625,7 +1625,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "04007b43-5241-4186-80f9-1e24dd5d7d6f")
+			(uuid "98f3e78f-94c1-4993-a57b-71962ae2e017")
 		)
 		(fp_line
 			(start 9.6 2.5)
@@ -1635,7 +1635,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cb547643-37f7-4e0d-8e46-886e7a583493")
+			(uuid "9fc7b351-67ca-4e96-8816-c53f958e5aea")
 		)
 		(fp_line
 			(start 10 3)
@@ -1645,7 +1645,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8f4931af-335f-40cc-b36b-c5f0715b7112")
+			(uuid "92796ab4-b55c-4452-8796-bb82b5e263d8")
 		)
 		(fp_line
 			(start -10 3)
@@ -1655,47 +1655,47 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d857a3e1-14d8-4b84-ab62-554f2abd8423")
+			(uuid "9199afaf-1ae7-4279-b4be-df1cd0dd2837")
 		)
 		(pad "1" thru_hole circle
-			(at -7.11 -0.1 90)
+			(at -7.11 0 90)
 			(size 3.54 3.54)
 			(drill 2.54)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "Net-(J1-Pin_1)")
 			(pintype "passive")
-			(uuid "24ec74a1-b6da-48a3-96f9-db94c9c43836")
+			(uuid "ba7b16cd-5ca9-4957-ae3f-c29326636d19")
 		)
 		(pad "1" thru_hole circle
 			(at -2.03 0 90)
 			(size 3.54 3.54)
 			(drill 2.54)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 32 "Net-(J1-Pin_1)")
 			(pintype "passive")
-			(uuid "9a941159-5f08-422c-a7ea-dfdb44fada03")
+			(uuid "8f349daa-40e6-4563-8f95-aceb2a30bcfa")
 		)
 		(pad "2" thru_hole circle
 			(at 2.03 0 90)
 			(size 3.54 3.54)
 			(drill 2.54)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+12V")
 			(pintype "passive")
-			(uuid "91e7d8dc-e21b-48e7-8020-f5b7c0f99c9c")
+			(uuid "e9201489-1287-4592-b990-d5f0b40226f3")
 		)
 		(pad "2" thru_hole circle
 			(at 7.11 0 90)
 			(size 3.54 3.54)
 			(drill 2.54)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 2 "+12V")
 			(pintype "passive")
-			(uuid "d58a5e4e-a757-4ccd-8be4-9ee2f91dc718")
+			(uuid "f2d3a5ea-c95a-429d-8806-57c1e6610efb")
 		)
 		(model "Fuse_Holders_and_Fuses.3dshapes/BladeFuse-CarType.wrl"
 			(offset
