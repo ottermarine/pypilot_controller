@@ -650,7 +650,7 @@
 					)
 				)
 			)
-			(property "Footprint" "pypilot_components:uart"
+			(property "Footprint" "pypilot_controller_footprints:uart"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 206.121 36.83 90)
+			(at 204.978 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 203.2 36.83 0)
 			(effects
 				(font
@@ -2233,7 +2233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 48.641 90)
+			(at 101.6 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 101.6 45.72 0)
 			(effects
 				(font
@@ -2394,7 +2394,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 129.921 39.37 90)
+			(at 128.778 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 127 39.37 0)
 			(effects
 				(font
@@ -2470,7 +2470,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 162.56 40.259 90)
+			(at 162.56 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -2546,7 +2546,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 184.15 60.071 90)
+			(at 184.15 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 184.15 57.15 0)
 			(effects
 				(font
@@ -2744,6 +2744,7 @@
 		)
 	)
 	(symbol
+		(lib_name "pypilot_components:tlp2361")
 		(lib_id "pypilot_components:tlp2361")
 		(at 172.72 54.61 0)
 		(mirror y)
@@ -3028,7 +3029,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 153.289 54.61 90)
+			(at 154.432 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 156.21 54.61 0)
 			(effects
 				(font
@@ -3357,7 +3358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 189.23 49.53 0)
 			(effects
 				(font
@@ -3422,7 +3423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 189.23 33.02 0)
 			(effects
 				(font
@@ -3469,7 +3470,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 101.6 46.101 90)
+			(at 101.6 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 101.6 43.18 0)
 			(effects
 				(font
