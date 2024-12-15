@@ -982,10 +982,10 @@
 			)
 		)
 		(symbol "XC6202P502FR-G_1_1"
-			(pin power_in line
-				(at 0 -7.62 90)
+			(pin power_out line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "GND"
+				(name "VO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1000,10 +1000,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 7.62 0 180)
+			(pin power_in line
+				(at 0 -7.62 90)
 				(length 2.54)
-				(name "VO"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
