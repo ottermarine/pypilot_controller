@@ -950,7 +950,7 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4001"
+		(symbol "pypilot_components:ES2G"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -964,7 +964,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4001"
+			(property "Value" "ES2G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -972,7 +972,16 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2408051407_GOODWORK-ES2G_C2848675.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -981,16 +990,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Description" "400V 2A 1.25V@6A fast recovery / high efficiency diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1017,7 +1017,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "LCSC" "C2848675"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1026,7 +1026,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_keywords" "Super Fast"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1035,7 +1035,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4001_0_1"
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ES2G_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1073,7 +1082,7 @@
 					)
 				)
 			)
-			(symbol "1N4001_1_1"
+			(symbol "ES2G_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4783,7 +4792,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
+		(lib_id "pypilot_components:ES2G")
 		(at 140.97 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4799,7 +4808,7 @@
 				)
 			)
 		)
-		(property "Value" "MUR160"
+		(property "Value" "ES2G"
 			(at 140.97 69.215 0)
 			(effects
 				(font
@@ -4816,7 +4825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2408051407_GOODWORK-ES2G_C2848675.pdf"
 			(at 140.97 72.39 0)
 			(effects
 				(font
@@ -4825,7 +4834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "400V 2A 1.25V@6A fast recovery / high efficiency diode, SMA(DO-214AC)"
 			(at 140.97 72.39 0)
 			(effects
 				(font
@@ -4835,6 +4844,24 @@
 			)
 		)
 		(property "LCSC" "C2848675"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 140.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 140.97 72.39 0)
 			(effects
 				(font
@@ -4859,7 +4886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
+		(lib_id "pypilot_components:ES2G")
 		(at 140.97 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4875,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Value" "MUR160"
+		(property "Value" "ES2G"
 			(at 140.97 99.695 0)
 			(effects
 				(font
@@ -4892,7 +4919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2408051407_GOODWORK-ES2G_C2848675.pdf"
 			(at 140.97 102.87 0)
 			(effects
 				(font
@@ -4901,7 +4928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "400V 2A 1.25V@6A fast recovery / high efficiency diode, SMA(DO-214AC)"
 			(at 140.97 102.87 0)
 			(effects
 				(font
@@ -4911,6 +4938,24 @@
 			)
 		)
 		(property "LCSC" "C2848675"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 140.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 140.97 102.87 0)
 			(effects
 				(font
