@@ -26298,16 +26298,29 @@
 		(layer "Edge.Cuts")
 		(uuid "00000000-0000-0000-0000-00005eaef450")
 	)
-	(gr_text "pypilot controller 3.0"
-		(at 41.55 6.25 0)
+	(gr_text "PyPilot Controller"
+		(at 69 13.33 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000066554d79")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+				(italic yes)
 			)
-			(justify mirror)
+			(justify left top mirror)
+		)
+	)
+	(gr_text "                   for PyPilot, the open source autopilot\nBased on pypilot controller 3.0, by Sean Depagnier\n\nModifications and manufacturing by Mitch Davis\nLicensed under CERN-OHL-P v2, an open source hardware license\n\nCommunity support for PyPilot: https://www.pypilot.org/\nSupport for this controller: https://www.example.com/\n\nHappy sailing the open source way!"
+		(at 69 13.33 0)
+		(layer "B.SilkS")
+		(uuid "ef3cda75-858f-4d50-b669-a667c6624661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
 		)
 	)
 	(gr_text "End Stops"
@@ -26396,6 +26409,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "PyPilot 3.0a\n16-Dec-2024"
+		(at 29.24 16.61 0)
+		(layer "F.SilkS")
+		(uuid "2641a1bb-bb63-4a96-bdd9-ff096905aabb")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify left top)
 		)
 	)
 	(gr_text "UART"
