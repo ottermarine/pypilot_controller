@@ -2112,6 +2112,7 @@
 		)
 	)
 	(symbol
+		(lib_name "pypilot_components:tlp2361")
 		(lib_id "pypilot_components:tlp2361")
 		(at 182.88 40.64 0)
 		(unit 1)
