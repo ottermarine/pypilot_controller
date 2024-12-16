@@ -38,7 +38,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "*C2935871, C668119, C3204137"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -60,6 +60,18 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2935871"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b200948f-1360-469d-8e36-544c8abc0508")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)

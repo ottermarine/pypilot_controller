@@ -1555,7 +1555,7 @@
 		(property "Reference" "F1"
 			(at 4.47 -1.5 90)
 			(layer "F.SilkS")
-			(uuid "3439b877-149a-4e4a-8745-e6e3c4e984e3")
+			(uuid "0d82386a-7b2a-4158-85f3-30296a98f3e4")
 			(effects
 				(font
 					(size 1 1)
@@ -1566,7 +1566,7 @@
 		(property "Value" "FUSE"
 			(at -3.302 -3.5814 90)
 			(layer "F.Fab")
-			(uuid "d258a3cc-afb2-4f74-9113-65bd2d57df98")
+			(uuid "e0d97ce0-343c-49b4-95c8-b75ff5f1f3d1")
 			(effects
 				(font
 					(size 1 1)
@@ -1579,7 +1579,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abe7df53-9859-476e-b2fa-d88057ab01af")
+			(uuid "613a4ad0-dc2b-4dfb-a734-dc1a070116c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1592,7 +1592,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e35dc915-769b-4c17-adae-760c6d80f81d")
+			(uuid "3386e211-3570-4d21-832d-b12dff55747c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1605,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57685b9f-8b63-46d1-b92c-23b2b60daf5c")
+			(uuid "90cf4f6b-c175-46c7-82f5-5d5e07544bab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,9 +1616,9 @@
 		(property "LCSC" "C2935871"
 			(at 0 0 90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4dbc135d-76f4-4fb4-9863-a0e65a84071c")
+			(uuid "3f232099-2385-46cc-8496-6a5767e686fe")
 			(effects
 				(font
 					(size 1 1)
@@ -1639,7 +1639,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b721a709-9475-498f-854e-d0d95ebfa687")
+			(uuid "13cab642-3ee2-4be9-914e-f882cb91d3dd")
 		)
 		(fp_line
 			(start -10 -3)
@@ -1649,7 +1649,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "051ae3df-3605-4b5c-9b4a-ddb04f149194")
+			(uuid "31f93b8e-891b-49a0-9b6e-dc146201db53")
 		)
 		(fp_line
 			(start 9.6 -2.5)
@@ -1659,7 +1659,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8d69a89a-4a43-4598-910a-a78c8674b60d")
+			(uuid "53a49835-34fe-47b2-824e-e00bbb146b6a")
 		)
 		(fp_line
 			(start -9.6 -2.5)
@@ -1669,7 +1669,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8abb5b49-b1e3-46aa-a62a-8d2e73a99b7b")
+			(uuid "75eae337-a58d-4274-a869-5ba2813d474c")
 		)
 		(fp_line
 			(start 0.3 0)
@@ -1679,7 +1679,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0fc7775d-ad55-42f8-90a3-f038d4be3f3e")
+			(uuid "e50977ce-7ae9-45ac-8a2c-27eb0de71191")
 		)
 		(fp_line
 			(start -9.7 2.4)
@@ -1689,7 +1689,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "98f3e78f-94c1-4993-a57b-71962ae2e017")
+			(uuid "bca41ead-ce41-4572-8453-158e21cc50c7")
 		)
 		(fp_line
 			(start 9.6 2.5)
@@ -1699,7 +1699,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9fc7b351-67ca-4e96-8816-c53f958e5aea")
+			(uuid "dbf1a96e-8d95-464a-91df-6727dacbd6c6")
 		)
 		(fp_line
 			(start 10 3)
@@ -1709,7 +1709,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92796ab4-b55c-4452-8796-bb82b5e263d8")
+			(uuid "400d5fd2-4682-496a-8d8b-fc9bfffa59d4")
 		)
 		(fp_line
 			(start -10 3)
@@ -1719,7 +1719,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9199afaf-1ae7-4279-b4be-df1cd0dd2837")
+			(uuid "076dd83c-70df-4656-88df-ac44acbc0d96")
 		)
 		(pad "1" thru_hole circle
 			(at -7.11 0 90)
@@ -1729,7 +1729,7 @@
 			(remove_unused_layers no)
 			(net 32 "Net-(J1-Pin_1)")
 			(pintype "passive")
-			(uuid "ba7b16cd-5ca9-4957-ae3f-c29326636d19")
+			(uuid "66ece6ad-c372-4a55-a2c8-6ac1de7c4a91")
 		)
 		(pad "1" thru_hole circle
 			(at -2.03 0 90)
@@ -1739,7 +1739,7 @@
 			(remove_unused_layers no)
 			(net 32 "Net-(J1-Pin_1)")
 			(pintype "passive")
-			(uuid "8f349daa-40e6-4563-8f95-aceb2a30bcfa")
+			(uuid "43b11105-79cb-4312-8cd5-a3cb3aa1b094")
 		)
 		(pad "2" thru_hole circle
 			(at 2.03 0 90)
@@ -1749,7 +1749,7 @@
 			(remove_unused_layers no)
 			(net 2 "+12V")
 			(pintype "passive")
-			(uuid "e9201489-1287-4592-b990-d5f0b40226f3")
+			(uuid "f239e4e9-4f4a-470b-ab23-b166befaa61f")
 		)
 		(pad "2" thru_hole circle
 			(at 7.11 0 90)
@@ -1759,7 +1759,7 @@
 			(remove_unused_layers no)
 			(net 2 "+12V")
 			(pintype "passive")
-			(uuid "f2d3a5ea-c95a-429d-8806-57c1e6610efb")
+			(uuid "e456af50-c449-4b04-82b1-61ae3c1a0c14")
 		)
 		(model "Fuse_Holders_and_Fuses.3dshapes/BladeFuse-CarType.wrl"
 			(offset
