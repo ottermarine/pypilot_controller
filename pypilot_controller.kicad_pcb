@@ -25530,6 +25530,690 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.5mm"
+		(layer "F.Cu")
+		(uuid "3bdd9344-6ccf-45e9-83b5-d67b65e17c92")
+		(at 76.0476 37.084)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H5"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bb0ab96b-21d3-415d-b1b1-f1fec010d9b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(uuid "8b8725fb-d251-4395-8538-532a78765deb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b303f01e-b343-4002-a1cf-67b80173afd2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4dad036-17ad-4d2a-a3ef-275883a66706")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58615734-516a-4f74-b4bc-b2ef9f449b2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/011e02de-2ff7-4af5-8a1a-6ef493c4f682")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fde8161c-85f6-4c9e-b255-661b76820d64")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "bb169640-4186-46f0-a5d7-f8f2b018e4b9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "62d77a80-61fd-469e-923a-6de34d77d98c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b0035adb-6e0d-45bb-ae22-a0f45b68c1e0")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "3f5ca08d-e4d4-4e4b-a59f-48e85b0d6d40")
+		(at 75 48.1)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H4"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a139cdf3-662d-4513-ac40-f35a4363add2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "1a4d3897-dc02-4c8f-b638-4fb238dbe4f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b94f3d33-d2ac-46c6-8b0c-5553fcdd6260")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afe52687-a455-47c0-b670-984035e92675")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85485638-ae5f-48af-bc97-acccb1870935")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/1a17d0fe-58ed-46ac-b63e-390e339be74e")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "da41bf30-68c5-4f74-95d7-eea266c7a99d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4357b8f4-a302-4412-8c21-bc5e3856bd87")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2874c15a-3bdc-4518-a5b6-eae3bbc487f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "54bd528d-3268-4312-999a-a39316484122")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.5mm"
+		(layer "F.Cu")
+		(uuid "9283a939-5977-4b9c-89c8-ff0f42ed2555")
+		(at 76.0476 43.7388)
+		(descr "Mounting Hole 2.5mm, no annular")
+		(tags "mounting hole 2.5mm no annular")
+		(property "Reference" "H6"
+			(at 0 -3.5 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d8b00b63-2033-4e95-b605-2f3c59165b7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.5 0)
+			(layer "F.Fab")
+			(uuid "6f62a056-55b0-498b-a2f0-4c07c1452ff5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3594c69c-4b7f-4f52-bc61-cb7ca9b66424")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cca7633-4f70-4e22-bbed-8ffc0d8a1fc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "384caa76-fdad-4118-83fe-1e8ae4b2f2d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/1008dfae-657f-4b39-8059-b9ea3878fabd")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.5 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "4c433ee6-8383-476c-a649-b6cd93136079")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2cccf0a3-dbf7-4464-87f4-1eea2f78c505")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "db544265-401f-4eb3-a442-6e92aa5fd75c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.5 2.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(uuid "309714b8-d8de-4710-bb65-bef00a6da149")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "a6c7da74-8404-4138-8431-176aadfee063")
+		(at 75 4.6)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H2"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bbf993f0-5f3f-440c-aba3-00b31f5dc088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "21ebc55e-2ae2-476f-abc6-d5d38cfbbd07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dbf4054-2db0-41ce-ac58-f5ce48355489")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bf7bf2c-91ad-4115-99df-e958ca83c514")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76cf634f-70f5-4af7-a25c-dfcb8dd7c57a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/6be47da1-4235-46e2-bce3-650f642954ac")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "37d4426e-c334-4212-8ad2-cf52aaa46d7b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d8aff488-3a63-463e-82ca-ed58da3573ea")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5d35e552-727b-47e8-baf6-0c4ca7764318")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "de29fe5b-2a60-4c7f-bf77-94b9428963e8")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "ef8294a5-7f72-44a6-96b5-cc3441eaece5")
+		(at 5.3 4.6)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H1"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c108ef1c-8d47-4877-b3f9-0ef1dcdeefc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "ce365ccb-a5b4-4a51-b967-8e13001baf92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "303e2fbe-f62f-4ac0-9f2e-1d3261a4350f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91ad6175-ce85-48a8-85a5-0ec619e36df4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63ba7382-b9f8-45a0-996a-0bfeed0d8de7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/c1b4a634-0dbe-43e1-b98d-edad1cee39bf")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "73a91a28-2c07-4ebf-bb33-9cd820998767")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f4c8aa37-60db-4412-a6ef-579206bf9d11")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "02930efc-d826-4fb6-99f1-961c7148d4b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "40917a0c-3f25-4885-a9ac-91c7aaae46da")
+		)
+	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3"
+		(layer "F.Cu")
+		(uuid "f5342bcd-39ca-4266-a3ab-7f5bd48cfc45")
+		(at 5.3 48.1)
+		(descr "Mounting Hole 3.2mm, no annular, M3")
+		(tags "mounting hole 3.2mm no annular m3")
+		(property "Reference" "H3"
+			(at 0 -4.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6f3289dc-8822-48d7-8746-1dde701ed35b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4.2 0)
+			(layer "F.Fab")
+			(uuid "fd4c2629-fc31-48d0-8224-c57d4bf422d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84f454a1-1365-48d4-8ec8-39c1a45cd2a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47a60db7-10e1-45a1-b4b2-10035b4d5268")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0acb4083-7bd6-4e9c-8a4a-9f7f33d6f6d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/994eace1-4dd0-446d-a6b2-d33af50cf4a6")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "ba0b7b48-13dd-4f5f-bcc0-538d0cc8edca")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e518757f-c13f-4e4c-8c05-e25a97cfb884")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "be2c48c6-ca16-4588-8405-82fa1ab56a34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.2 3.2)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "31548b45-818b-49fa-bb35-70a9ce14c2ca")
+		)
+	)
 	(gr_line
 		(start 78.45 49.2)
 		(end 78.45 3.55)
@@ -25724,54 +26408,6 @@
 				(thickness 0.2)
 			)
 		)
-	)
-	(via
-		(at 75 4.6)
-		(size 3.2)
-		(drill 3)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "00000000-0000-0000-0000-00005ff50de7")
-	)
-	(via
-		(at 5.3 4.6)
-		(size 3.2)
-		(drill 3)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "00000000-0000-0000-0000-00005ff5108b")
-	)
-	(via
-		(at 76.0476 37.084)
-		(size 2.6)
-		(drill 2.4)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "00000000-0000-0000-0000-00005ff51adb")
-	)
-	(via
-		(at 76.0476 43.7388)
-		(size 2.6)
-		(drill 2.4)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "00000000-0000-0000-0000-000060092759")
-	)
-	(via
-		(at 75 48.1)
-		(size 3.2)
-		(drill 3)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "20c608c3-af99-4ebc-8c8b-269712f5ed5a")
-	)
-	(via
-		(at 5.3 48.1)
-		(size 3.2)
-		(drill 3)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "2e42db76-372f-40ef-919a-52de6b1bdf8e")
 	)
 	(segment
 		(start 26.1 26.775)
