@@ -1587,7 +1587,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "C2935871, C668119, C3204137"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16023,7 +16023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "C487394"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18124,7 +18124,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "C487394"
+		(property "Datasheet" ""
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
