@@ -26412,12 +26412,12 @@
 		)
 	)
 	(gr_text "PyPilot Controller 3.0a\n16-Dec-2024"
-		(at 28.1 15.7 0)
+		(at 28.1 15.2 0)
 		(layer "F.SilkS")
 		(uuid "2641a1bb-bb63-4a96-bdd9-ff096905aabb")
 		(effects
 			(font
-				(size 1 0.8)
+				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify left top)
