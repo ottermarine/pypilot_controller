@@ -4,18 +4,21 @@ AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-P v2
 for applicable conditions.
 
 You may redistribute and modify this documentation and make products
-using it under the terms of the CERN-OHL-P v2 (https:/cern.ch/cern-ohl).
+using it under the terms of the [CERN-OHL-P v2](https:/cern.ch/cern-ohl).
 
-This source describes Open Hardware and is licensed under the CERN-OHL-P v2.
-It is Copyright 2016-2014 by Sean Depagnier, and Copyright 2024 by Mitch Davis.
+This source describes Open Hardware licensed under the CERN-OHL-P v2.
+The following authors assert their copyright:
 
-The full licence terms are as follows:
+|2016-2014|Sean Depagnier|
+|2024|Mitch Davis|
 
-  https://ohwr.org/cern_ohl_p_v2.txt
+The [full licence terms](https://ohwr.org/cern_ohl_p_v2.txt) are as follows:
 
-CERN Open Hardware Licence Version 2 - Permissive
+---
 
-Preamble
+# CERN Open Hardware Licence Version 2 - Permissive
+
+## Preamble
 
 CERN has developed this licence to promote collaboration among
 hardware designers and to provide a legal tool which supports the
@@ -33,7 +36,7 @@ Licensor or their designs nor does it imply any involvement by CERN in
 their development.
 
 
-1 Definitions
+## 1 Definitions
 
   1.1 'Licence' means this CERN-OHL-P.
 
@@ -70,7 +73,7 @@ their development.
   1.9 'Convey' means to communicate to the public or distribute.
 
 
-2 Applicability
+## 2 Applicability
 
   2.1 This Licence governs the use, copying, modification, Conveying
       of Covered Source and Products, and the Making of Products. By
@@ -87,7 +90,7 @@ their development.
       or any other similar right.
 
 
-3 Copying, Modifying and Conveying Covered Source
+## 3 Copying, Modifying and Conveying Covered Source
 
   3.1 You may copy and Convey verbatim copies of Covered Source, in
       any medium, provided You retain all Notices.
@@ -117,14 +120,14 @@ their development.
           Convey Covered Source or modified Covered Source.
 
 
-4 Making and Conveying Products
+## 4 Making and Conveying Products
 
 You may Make Products, and/or Convey them, provided that You ensure
 that the recipient of the Product has access to any Notices applicable
 to the Product.
 
 
-5 DISCLAIMER AND LIABILITY
+## 5 DISCLAIMER AND LIABILITY
 
   5.1 DISCLAIMER OF WARRANTY -- The Covered Source and any Products
       are provided 'as is' and any express or implied warranties,
@@ -157,7 +160,7 @@ to the Product.
       in relation to such use.
 
 
-6 Patents
+## 6 Patents
 
   6.1 Subject to the terms and conditions of this Licence, each
       Licensor hereby grants to You a perpetual, worldwide,
@@ -179,7 +182,7 @@ to the Product.
       terminate as of the date such process is initiated.
 
 
-7 General
+## 7 General
 
   7.1 If any provisions of this Licence are or subsequently become
       invalid or unenforceable for any reason, the remaining
