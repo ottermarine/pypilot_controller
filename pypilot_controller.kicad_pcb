@@ -12,7 +12,7 @@
 		(date "19-Dec-2024")
 		(rev "3.0a")
 		(comment 1 "                   for PyPilot, the open source autopilot\nBased on pypilot controller 3.0, by Sean Depagnier\nLicensed under the CERN-OHL-P v2 open source hardware license\n\nCommunity support for PyPilot: https://www.pypilot.org/\n")
-		(comment 2 "Design modifications and board manufacturing by Mitch Davis\nSupport for this controller: https://www.example.com/\n\nHappy sailing the open source way!")
+		(comment 2 "Put your version and support info here using File->Page Settings,\nor use kicad-cli pcb export gerbers -D to override")
 	)
 	(layers
 		(0 "F.Cu" signal)
