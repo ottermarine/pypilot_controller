@@ -2978,7 +2978,7 @@
 				)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "R010"
 			(at 241.3 101.6 90)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 157.48 85.09 90)
 			(effects
 				(font
@@ -3985,7 +3985,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 158.75 80.01 90)
 			(effects
 				(font
@@ -4061,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 158.75 110.49 90)
 			(effects
 				(font
@@ -4137,7 +4137,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 157.48 115.57 90)
 			(effects
 				(font
