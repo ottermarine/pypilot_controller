@@ -5,7 +5,8 @@
 	(uuid "3485d22d-0932-4f13-a5db-09c3f9bc7038")
 	(paper "A4")
 	(title_block
-		(date "29 nov 2017")
+		(date "19-Dec-2024")
+		(rev "3.0a")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"

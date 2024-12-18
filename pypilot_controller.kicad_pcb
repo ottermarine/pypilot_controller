@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "PyPilot Controller")
+		(date "19-Dec-2024")
+		(rev "3.0a")
+		(comment 1 "                   for PyPilot, the open source autopilot\nBased on pypilot controller 3.0, by Sean Depagnier\nLicensed under the CERN-OHL-P v2 open source hardware license\n\nCommunity support for PyPilot: https://www.pypilot.org/\n")
+		(comment 2 "Design modifications and board manufacturing by Mitch Davis\nSupport for this controller: https://www.example.com/\n\nHappy sailing the open source way!")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal)
@@ -26298,7 +26305,7 @@
 		(layer "Edge.Cuts")
 		(uuid "00000000-0000-0000-0000-00005eaef450")
 	)
-	(gr_text "PyPilot Controller"
+	(gr_text "${TITLE}"
 		(at 69 13.33 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000066554d79")
@@ -26311,7 +26318,19 @@
 			(justify left top mirror)
 		)
 	)
-	(gr_text "                   for PyPilot, the open source autopilot\nBased on pypilot controller 3.0, by Sean Depagnier\n\nModifications and manufacturing by Mitch Davis\nLicensed under CERN-OHL-P v2, an open source hardware license\n\nCommunity support for PyPilot: https://www.pypilot.org/\nSupport for this controller: https://www.example.com/\n\nHappy sailing the open source way!"
+	(gr_text "${COMMENT2}"
+		(at 69 24.8 0)
+		(layer "B.SilkS")
+		(uuid "b0baff7e-073b-4758-8815-0f0846b6ed49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top mirror)
+		)
+	)
+	(gr_text "${COMMENT1}"
 		(at 69 13.33 0)
 		(layer "B.SilkS")
 		(uuid "ef3cda75-858f-4d50-b669-a667c6624661")
@@ -26411,7 +26430,7 @@
 			)
 		)
 	)
-	(gr_text "PyPilot Controller 3.0a\n16-Dec-2024"
+	(gr_text "${TITLE} ${REVISION}\n${ISSUE_DATE}"
 		(at 28.1 15.2 0)
 		(layer "F.SilkS")
 		(uuid "2641a1bb-bb63-4a96-bdd9-ff096905aabb")
