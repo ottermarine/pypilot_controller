@@ -216,7 +216,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "0872aa2f-7509-4092-9d1b-d42e4c27e489")
@@ -944,7 +944,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C29823"
+		(property "LCSC" "C29823"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1396,7 +1396,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C29823"
+		(property "LCSC" "C29823"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2075,7 +2075,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "560R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "03fa508a-5914-430e-9fad-384ab3eb671a")
@@ -5366,7 +5366,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "bc7a241d-f967-4e22-85f9-f0148a2c06d4")
@@ -6044,7 +6044,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "e170e42a-fb0e-4c5e-98bd-91125c844889")
@@ -6270,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Value" "20"
+		(property "Value" "20R"
 			(at 0 1.82 180)
 			(layer "F.Fab")
 			(uuid "ae708b6f-130a-47a9-870f-5c86e5252532")
@@ -6722,7 +6722,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "501faa6b-3cee-4ccc-8fdc-4373278365ad")
@@ -7450,7 +7450,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C2296"
+		(property "LCSC" "C2296"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8150,7 +8150,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C29823"
+		(property "LCSC" "C29823"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8376,7 +8376,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C29823"
+		(property "LCSC" "C29823"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8602,7 +8602,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C29823"
+		(property "LCSC" "C29823"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10352,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "R010"
 			(at 7.62 2.37 180)
 			(layer "F.Fab")
 			(uuid "9757d1de-6fd0-4a5e-bf3f-b1da53aa7ec6")
@@ -11129,7 +11129,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C29823"
+		(property "LCSC" "C29823"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12673,7 +12673,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "510R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "b7c720a5-1a55-4bfe-8b4b-de33c3821dc1")
@@ -13125,7 +13125,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "510R"
 			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "68801f36-8b9f-4066-b0c6-223936981b5f")
@@ -13803,7 +13803,7 @@
 				)
 			)
 		)
-		(property "Value" "510"
+		(property "Value" "510R"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "7364e74b-2df5-41fa-9ac8-aa40e9ced1cf")
