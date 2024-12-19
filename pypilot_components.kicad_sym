@@ -225,7 +225,7 @@
 		)
 		(symbol "74LVC1G17_1_1"
 			(pin no_connect line
-				(at 0.635 2.35 270)
+				(at 0 2.54 270)
 				(length 1.54) hide
 				(name "~"
 					(effects
