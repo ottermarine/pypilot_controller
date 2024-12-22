@@ -5717,7 +5717,7 @@
 				)
 			)
 		)
-		(property "Value" "power+"
+		(property "Value" "Motor A"
 			(at 187.1472 83.4136 0)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 				)
 			)
 		)
-		(property "Value" "power+"
+		(property "Value" "Motor B"
 			(at 206.5528 76.6064 0)
 			(effects
 				(font
