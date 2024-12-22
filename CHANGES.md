@@ -1,14 +1,15 @@
-These design files constitute a modified version of a work
-licenced under the CERN-OHL-S v2 licence.  This file documents
-the modifications, as required by Section 3.3.b of the licence
-and the (CERN-OHL-P v2 howto)[https://ohwr.org/project/cernohl/-/wikis/uploads/8a6b5d01f71c207c49493e4d114d61e6/cern_ohl_p_v2_howto.pdf]).
+These design files constitute a modified version of a work licenced
+under the Creative Commons "Attribution-ShareAlike 4.0 International"
+(CC-BY-SA-4.0) license.
+
+This file documents changes made since distribution by the original
+author, Sean D'Epagnier.
 
 # 2024-12-16  Mitch Davis  <mjd@afork.com>
 
  - We no longer need this file (`freetronics_schematic.kicad_sym`).
  - Switching to markdown format for the licence
  - Added text to silkscreen on front and back with authorship, licence and websites
- - Tweaked licence doc, as per the CERN OHL howto
  - Refilled zones
  - Made a small tweak to add another thermal relief to ground zone
  - Updated fuse footprint to have LCSC numbers

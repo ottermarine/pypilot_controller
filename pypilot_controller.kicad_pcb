@@ -11,7 +11,7 @@
 		(title "PyPilot Controller")
 		(date "19-Dec-2024")
 		(rev "3.0a")
-		(comment 1 "                   for PyPilot, the open source autopilot\nBased on pypilot controller 3.0, by Sean Depagnier\nLicensed under the CERN-OHL-P v2 open source hardware license\n\nCommunity support for PyPilot: https://www.pypilot.org/\n")
+		(comment 1 "                   for PyPilot, the open source autopilot\nBased on pypilot controller 3.0, by Sean D'Epagnier\nFor info about your right to study, make, modify and\nshare this design, search \"CC-BY-SA v4\".\n\nCommunity support for PyPilot: https://www.pypilot.org/\n")
 		(comment 2 "Put your version and support info here using File->Page Settings,\nor use kicad-cli pcb export gerbers -D to override")
 	)
 	(layers
@@ -26546,7 +26546,7 @@
 		(uuid "00000000-0000-0000-0000-00005eaef450")
 	)
 	(gr_text "${TITLE}"
-		(at 58.8 7.23 0)
+		(at 62.1 7.23 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000066554d79")
 		(effects
@@ -26559,7 +26559,7 @@
 		)
 	)
 	(gr_text "${COMMENT2}"
-		(at 58.8 18.7 0)
+		(at 62.1 18.7 0)
 		(layer "B.SilkS")
 		(uuid "b0baff7e-073b-4758-8815-0f0846b6ed49")
 		(effects
@@ -26571,7 +26571,7 @@
 		)
 	)
 	(gr_text "${COMMENT1}"
-		(at 58.8 7.23 0)
+		(at 62.1 7.23 0)
 		(layer "B.SilkS")
 		(uuid "ef3cda75-858f-4d50-b669-a667c6624661")
 		(effects
