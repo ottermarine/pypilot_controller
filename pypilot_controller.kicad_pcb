@@ -718,7 +718,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1792"
+		(property "LCSC" "C1797"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10406,7 +10406,7 @@
 		(path "/00000000-0000-0000-0000-00005a243c05")
 		(sheetname "Root")
 		(sheetfile "pypilot_controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 14.2 0)
 			(end 10.89 0)
@@ -20456,7 +20456,7 @@
 				)
 			)
 		)
-		(property "Value" "power+"
+		(property "Value" "Motor B"
 			(at 5.08 3.81 0)
 			(layer "F.Fab")
 			(uuid "1ee948f2-ca50-4069-9ac8-1789d2e92463")
@@ -22107,7 +22107,7 @@
 				)
 			)
 		)
-		(property "Value" "power+"
+		(property "Value" "Motor A"
 			(at 5.08 3.81 0)
 			(layer "F.Fab")
 			(uuid "e8dcf3c6-ee18-44bc-a4de-4c1c0141564e")
