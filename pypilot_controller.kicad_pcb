@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "PyPilot Controller")
-		(date "19-Dec-2024")
-		(rev "3.0a")
+		(date "PUT DATE HERE")
+		(rev "PUT VERSION HERE")
 		(comment 1 "                   for PyPilot, the open source autopilot\nBased on pypilot controller 3.0, by Sean D'Epagnier\nFor info about your right to study, make, modify and\nshare this design, search \"CC-BY-SA v4\".\n\nCommunity support for PyPilot: https://www.pypilot.org/\n")
 		(comment 2 "Put your version and support info here using File->Page Settings,\nor use kicad-cli pcb export gerbers -D to override")
 	)
