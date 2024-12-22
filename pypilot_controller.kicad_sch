@@ -1900,12 +1900,6 @@
 		(uuid "2c9fd894-a295-4028-8a7d-8e2c5035163a")
 	)
 	(junction
-		(at 238.76 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51716d4c-96f2-4f86-8aa7-5fad3da6a24d")
-	)
-	(junction
 		(at 50.8 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1940,6 +1934,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "833cab50-e38b-44a1-bc6b-6ebc428a6285")
+	)
+	(junction
+		(at 238.76 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86898f2c-6e3d-4ef5-baee-855ddc6293cc")
 	)
 	(junction
 		(at 184.15 80.01)
@@ -2018,6 +2018,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5c13619-e3ad-46a3-9a7a-f0a0a19b7083")
+	)
+	(junction
+		(at 238.76 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9cc86f8-d956-4990-84f1-bbcb8149f045")
 	)
 	(junction
 		(at 213.36 69.85)
@@ -2153,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 92.71) (xy 238.76 97.79)
+			(xy 238.76 92.71) (xy 238.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2200,6 +2206,26 @@
 			(type default)
 		)
 		(uuid "3250405d-3777-40ce-ac17-7fad248e00c7")
+	)
+	(wire
+		(pts
+			(xy 238.76 96.52) (xy 238.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d35f06-11de-42d2-a22f-ef92c44a6040")
+	)
+	(wire
+		(pts
+			(xy 245.11 97.79) (xy 245.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356a9725-6c1a-47c2-98f3-32fb6a2d4308")
 	)
 	(wire
 		(pts
@@ -2263,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 118.11) (xy 231.14 97.79)
+			(xy 231.14 118.11) (xy 231.14 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 238.76 97.79)
+			(xy 231.14 96.52) (xy 238.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2521,6 +2547,16 @@
 		)
 		(uuid "7413ff7c-2a39-4777-93b3-fab68c9e8ce1")
 	)
+	(polyline
+		(pts
+			(xy 242.824 93.98) (xy 242.824 109.728)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788744ce-2ed0-4afb-85c3-45af6c039d4c")
+	)
 	(wire
 		(pts
 			(xy 229.87 69.85) (xy 229.87 76.2)
@@ -2623,6 +2659,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 96.52) (xy 238.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89f3bc33-e8f9-43d5-9b80-b0442a0584d1")
+	)
+	(wire
+		(pts
 			(xy 167.64 80.01) (xy 173.99 80.01)
 		)
 		(stroke
@@ -2700,6 +2746,16 @@
 			(type default)
 		)
 		(uuid "99cc0d09-1d74-44d8-be32-0ea2d96a941f")
+	)
+	(wire
+		(pts
+			(xy 238.76 106.68) (xy 238.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d108dad-2cae-47f1-b7e2-a3b432a76a87")
 	)
 	(wire
 		(pts
@@ -2893,6 +2949,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 105.41) (xy 245.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1cfc77-fd13-402a-b372-4242e645a992")
+	)
+	(wire
+		(pts
 			(xy 234.95 92.71) (xy 238.76 92.71)
 		)
 		(stroke
@@ -2920,6 +2986,16 @@
 			(type default)
 		)
 		(uuid "d503fba3-b027-46d5-925a-b55dcf3c6e6d")
+	)
+	(wire
+		(pts
+			(xy 245.11 106.68) (xy 238.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a35717-1b8e-4866-9708-30586e0846c0")
 	)
 	(wire
 		(pts
@@ -2961,6 +3037,16 @@
 		)
 		(uuid "f9ead5ac-7214-4c7f-a19c-a9d27bdda8a6")
 	)
+	(text "Fit either R20 (THT) or R26 (SMT)"
+		(exclude_from_sim no)
+		(at 260.858 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "60b3f547-e38d-4fb8-aecf-79f6ab11a187")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 238.76 101.6 0)
@@ -2969,7 +3055,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005a243c05")
 		(property "Reference" "R20"
 			(at 238.76 101.6 90)
@@ -3673,7 +3759,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 106.68 0)
+		(at 238.76 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3681,7 +3767,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a92a721")
 		(property "Reference" "#PWR023"
-			(at 238.76 113.03 0)
+			(at 238.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +3776,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 107.95 0)
+			(at 234.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 106.68 0)
+			(at 238.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 106.68 0)
+			(at 238.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 106.68 0)
+			(at 238.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6105,6 +6191,83 @@
 			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "597efb70-763f-4207-8804-c6807edd96af")
+		(property "Reference" "R26"
+			(at 245.11 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R010"
+			(at 247.65 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 246.888 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_PSA-Prosperity-Dielectrics-FMF25FPJR010-LH_C105366.pdf"
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105366"
+			(at 245.11 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b03508e-b958-4e6f-b154-1831e6f5d8d8")
+		)
+		(pin "2"
+			(uuid "985a702b-70e3-49b5-8a31-d9b7505c1cc6")
+		)
+		(instances
+			(project "pypilot_controller"
+				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
+					(reference "R26")
 					(unit 1)
 				)
 			)
