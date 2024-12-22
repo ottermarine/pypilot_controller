@@ -1556,104 +1556,6 @@
 				)
 			)
 		)
-		(symbol "pypilot_components:VCC"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VCC"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VCC_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "pypilot_components:ncp5106b"
 			(pin_names
 				(offset 1.016)
@@ -2409,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 90.17) (xy 63.5 90.17)
+			(xy 59.69 90.17) (xy 63.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2586,6 +2488,16 @@
 			(type default)
 		)
 		(uuid "7ae6b340-d4d3-44df-a9e7-b5413318f007")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd036ee-7b89-4487-bcdb-408389163bc2")
 	)
 	(wire
 		(pts
@@ -4440,71 +4352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pypilot_components:VCC")
-		(at 57.15 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005a9874c4")
-		(property "Reference" "#PWR021"
-			(at 57.15 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 57.5818 26.0858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4840571a-154e-49ac-ad45-31e05e7ca7ae")
-		)
-		(instances
-			(project "pypilot_controller"
-				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 68.58 57.15 0)
 		(unit 1)
@@ -4730,7 +4577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pypilot_components:VCC")
+		(lib_id "power:+12V")
 		(at 186.69 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4738,7 +4585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a9cc524")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -4747,8 +4594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 187.1218 65.4558 0)
+		(property "Value" "+12V"
+			(at 186.69 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 186.69 69.85 0)
 			(effects
 				(font
@@ -4788,7 +4635,7 @@
 		(instances
 			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -5222,7 +5069,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 128.651 60.3758 0)
+			(at 128.27 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5134,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 64.77 29.21 0)
+			(at 68.326 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,16 +5335,16 @@
 		)
 	)
 	(symbol
-		(lib_id "pypilot_components:VCC")
-		(at 60.96 90.17 0)
+		(lib_id "power:+12V")
+		(at 59.69 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e31e793")
-		(property "Reference" "#PWR0125"
-			(at 60.96 93.98 0)
+		(property "Reference" "#PWR125"
+			(at 59.69 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,8 +5352,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 61.3918 85.7758 0)
+		(property "Value" "+12V"
+			(at 59.69 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 90.17 0)
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +5370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 90.17 0)
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,8 +5378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 90.17 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 59.69 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5393,7 @@
 		(instances
 			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "#PWR0125")
+					(reference "#PWR125")
 					(unit 1)
 				)
 			)
