@@ -25227,6 +25227,208 @@
 			(uuid "54bd528d-3268-4312-999a-a39316484122")
 		)
 	)
+	(footprint "pypilot_controller_footprints:JLC_Tooling_Hole"
+		(layer "F.Cu")
+		(uuid "76632958-c0fa-44d1-932d-abf858c85cbb")
+		(at 2.9 8.4)
+		(descr "Mounting Hole 2.1mm, no annular")
+		(tags "mounting hole 2.1mm no annular")
+		(property "Reference" "T1"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fe96979a-9dfa-4b86-a99d-ea9d21b89587")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tooling"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "6a76df34-b018-4e8c-801c-09a849411935")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pypilot_controller_footprints:JLC_Tooling_Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ad5067f-7d1d-4bf8-94b8-a48ba3c2816a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5d807c8-5687-450d-87cd-15e81f99bec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "JLC tooling hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21614f12-5d6c-4197-9c66-4d157d0dd57c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/7be35b60-56b5-4d7f-ba6f-af27465b9acd")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "313ba2b4-f158-4ffc-9b6e-c3da2288848b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a1d98177-b4c0-4df5-a9cc-b9285dc2d648")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(uuid "06f18883-50f5-4a29-be44-b26245e395f9")
+		)
+	)
+	(footprint "pypilot_controller_footprints:JLC_Tooling_Hole"
+		(layer "F.Cu")
+		(uuid "9152150a-7c01-4e08-8af6-0b36c1e791c2")
+		(at 77.3 26.3)
+		(descr "Mounting Hole 2.1mm, no annular")
+		(tags "mounting hole 2.1mm no annular")
+		(property "Reference" "T3"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea36a6f0-1e25-4bd7-adec-120a03c6dc62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tooling"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "c9d20862-b8ee-4663-b1d9-d510fd8dc156")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pypilot_controller_footprints:JLC_Tooling_Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43dcddb4-6927-4086-bf75-f1254f10d7a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce06a6bb-7204-40b2-94a9-85a886a60054")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "JLC tooling hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "377dc84a-cf00-4c3c-b879-91c5948371d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/01c38f94-cd83-43aa-b46e-0dc59450aff2")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "871cfa68-68b4-4750-96a4-4691257fad29")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9f6b0f9c-8304-47db-aaaa-84b839e90662")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(uuid "36dd532a-0cc9-466d-abdb-e77c8a23e8b8")
+		)
+	)
 	(footprint "MountingHole:MountingHole_2.5mm"
 		(layer "F.Cu")
 		(uuid "9283a939-5977-4b9c-89c8-ff0f42ed2555")
@@ -25453,6 +25655,107 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "de29fe5b-2a60-4c7f-bf77-94b9428963e8")
+		)
+	)
+	(footprint "pypilot_controller_footprints:JLC_Tooling_Hole"
+		(layer "F.Cu")
+		(uuid "c2f1f28c-324e-44e3-b767-206c96ddd457")
+		(at 56.6 50.6)
+		(descr "Mounting Hole 2.1mm, no annular")
+		(tags "mounting hole 2.1mm no annular")
+		(property "Reference" "T2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aba02935-b641-42f1-8757-14271bdb93e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tooling"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "f45d59b4-eb18-4a09-94ed-855797000b70")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pypilot_controller_footprints:JLC_Tooling_Hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2be95122-bf6b-4b6e-ac7b-062126f7dea0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efdd7dfc-82f6-42a0-9373-8fc8353e45ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "JLC tooling hole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ce3b833-c72b-4c67-81b5-0edf18aad900")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/0d1a2450-691f-4d24-8bab-a1f7a0c486d7")
+		(sheetname "Root")
+		(sheetfile "pypilot_controller.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0.7 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "20f09764-450d-4342-a77a-0ee781487090")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9029f520-6686-442d-9c62-4234e8b058c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(uuid "315a0917-c9d4-4913-8761-5661effa4e8f")
 		)
 	)
 	(footprint "pypilot_controller_footprints:TestPoint_Pad_1.0mm"
