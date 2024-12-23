@@ -812,7 +812,7 @@
 			)
 		)
 	)
-	(symbol "ncp5106b"
+	(symbol "IR2101"
 		(pin_names
 			(offset 1.016)
 		)
@@ -827,7 +827,7 @@
 				)
 			)
 		)
-		(property "Value" "ncp5106b"
+		(property "Value" "IR2101"
 			(at -3.81 -1.27 0)
 			(effects
 				(font
@@ -853,7 +853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High and Low Side Driver, 600V, 210/360mA, PDIP-8/SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -871,7 +871,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ncp5106b_0_1"
+		(symbol "IR2101_0_1"
 			(polyline
 				(pts
 					(xy -7.62 -12.7) (xy -7.62 -2.54) (xy 7.62 -2.54) (xy 7.62 -12.7) (xy -7.62 -12.7)
@@ -885,7 +885,7 @@
 				)
 			)
 		)
-		(symbol "ncp5106b_1_1"
+		(symbol "IR2101_1_1"
 			(pin power_in line
 				(at -10.16 -3.81 0)
 				(length 2.54)
