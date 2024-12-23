@@ -61,6 +61,7 @@
 			)
 		)
 	)
+	(zone_connect 2)
 	(attr through_hole)
 	(pad "1" thru_hole circle
 		(at 0 0)
