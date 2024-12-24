@@ -3512,7 +3512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 73.66 0)
 			(effects
 				(font
@@ -3606,7 +3606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 104.14 0)
 			(effects
 				(font
@@ -4601,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C468907"
+		(property "Datasheet" "~"
 			(at 198.12 86.36 0)
 			(effects
 				(font
@@ -4619,7 +4619,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83327"
+		(property "LCSC" "*C83327, C468907 "
 			(at 196.85 86.36 0)
 			(effects
 				(font
@@ -5125,7 +5125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C283478"
+		(property "Datasheet" "~"
 			(at 50.8 44.45 0)
 			(effects
 				(font
@@ -5143,7 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C83327"
+		(property "LCSC" "*C83327, C283478"
 			(at 50.8 43.18 0)
 			(effects
 				(font

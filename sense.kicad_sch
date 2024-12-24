@@ -4490,7 +4490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C51597, C72672"
+		(property "Datasheet" "~"
 			(at 218.44 100.33 0)
 			(effects
 				(font
@@ -4508,7 +4508,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72672"
+		(property "LCSC" "*C72672, C51597"
 			(at 218.44 100.33 0)
 			(effects
 				(font
@@ -5540,7 +5540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "100n"
 			(at 98.425 58.42 0)
 			(effects
 				(font
@@ -7826,7 +7826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "100n"
 			(at 114.935 39.37 0)
 			(effects
 				(font
@@ -8634,7 +8634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "100n"
 			(at 163.195 83.82 0)
 			(effects
 				(font
@@ -8779,7 +8779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".1uF"
+		(property "Value" "100n"
 			(at 168.275 132.08 0)
 			(effects
 				(font
