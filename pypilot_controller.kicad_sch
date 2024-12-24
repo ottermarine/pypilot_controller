@@ -6295,7 +6295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01c38f94-cd83-43aa-b46e-0dc59450aff2")
-		(property "Reference" "T3"
+		(property "Reference" "T2"
 			(at 38.989 191.8278 0)
 			(effects
 				(font
@@ -6342,70 +6342,6 @@
 		)
 		(instances
 			(project ""
-				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "T3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pypilot_components:Tooling")
-		(at 36.83 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d1a2450-691f-4d24-8bab-a1f7a0c486d7")
-		(property "Reference" "T2"
-			(at 38.989 186.7478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Tooling"
-			(at 38.989 189.1721 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pypilot_controller_footprints:JLC_Tooling_Hole"
-			(at 39.37 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "JLC tooling hole"
-			(at 36.83 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
 					(reference "T2")
 					(unit 1)
@@ -6753,7 +6689,7 @@
 	)
 	(symbol
 		(lib_id "pypilot_components:Tooling")
-		(at 36.83 182.88 0)
+		(at 36.83 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6762,7 +6698,7 @@
 		(fields_autoplaced yes)
 		(uuid "7be35b60-56b5-4d7f-ba6f-af27465b9acd")
 		(property "Reference" "T1"
-			(at 38.989 181.6678 0)
+			(at 38.989 186.7478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,7 +6707,7 @@
 			)
 		)
 		(property "Value" "Tooling"
-			(at 38.989 184.0921 0)
+			(at 38.989 189.1721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,7 +6716,7 @@
 			)
 		)
 		(property "Footprint" "pypilot_controller_footprints:JLC_Tooling_Hole"
-			(at 39.37 185.42 0)
+			(at 39.37 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6789,7 +6725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 182.88 0)
+			(at 36.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6798,7 +6734,7 @@
 			)
 		)
 		(property "Description" "JLC tooling hole"
-			(at 36.83 182.88 0)
+			(at 36.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
