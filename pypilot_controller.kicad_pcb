@@ -26871,7 +26871,6 @@
 		)
 	)
 	(footprint "Symbol:Symbol_CC-ShareAlike_CopperTop_Small"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "5ec5b973-1be4-49d4-9f5a-e9fbc7ac7f3e")
 		(at 55.9 42.8 180)
@@ -26945,7 +26944,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_circle
 			(center 0.00064 0)
 			(end 2.50064 0)
@@ -27026,7 +27025,6 @@
 		)
 	)
 	(footprint "pypilot_controller_footprints:KiCad-Logo2_6mm_SilkScreen"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "8b2c011d-26ce-471e-a18a-0916bccccab7")
 		(at 61.707487 36.117365 180)
@@ -27100,7 +27098,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_poly
 			(pts
 				(xy 4.200322 4.04644) (xy 4.224035 4.03167) (xy 4.250686 4.01009) (xy 4.250686 3.688544) (xy 4.250601 3.594487)
@@ -27691,7 +27689,6 @@
 		)
 	)
 	(footprint "Symbol:Symbol_CreativeCommons_CopperTop_Type2_Small"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "b7410575-25cc-4d2c-a8d7-89e76bbcb18a")
 		(at 67 42.8 180)
@@ -27765,7 +27762,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_circle
 			(center 0 0)
 			(end 2.5 0)
@@ -27909,7 +27906,6 @@
 		)
 	)
 	(footprint "Symbol:OSHW-Logo_5.7x6mm_SilkScreen"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "d1fed1ef-9732-4a51-b538-0d51f0a4ecc7")
 		(at 49.9 35.5 180)
@@ -27983,7 +27979,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 1.79946 -1.45803) (xy 1.842711 -1.471245) (xy 1.870558 -1.487941) (xy 1.879629 -1.501145) (xy 1.877132 -1.516797)
@@ -28498,7 +28494,6 @@
 		)
 	)
 	(footprint "Symbol:Symbol_CC-Attribution_CopperTop_Small"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "e6e4c4cd-61f4-45d0-a5b6-8ce5102928aa")
 		(at 61.45032 42.8 180)
@@ -28571,7 +28566,7 @@
 				(justify mirror)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_rect
 			(start 0.8 -0.4)
 			(end -0.8 -0.2)
