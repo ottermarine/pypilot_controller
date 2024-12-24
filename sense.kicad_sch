@@ -5794,7 +5794,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 69.0372 80.0862 90)
+			(at 68.072 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
