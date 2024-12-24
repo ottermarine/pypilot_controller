@@ -3302,7 +3302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "pypilot_controller_footprints:TO-252-2-reduced-paste"
 			(at 210.82 82.55 0)
 			(effects
 				(font
@@ -3703,7 +3703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "pypilot_controller_footprints:TO-252-2-reduced-paste"
 			(at 210.82 72.39 0)
 			(effects
 				(font
@@ -3783,7 +3783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "pypilot_controller_footprints:TO-252-2-reduced-paste"
 			(at 176.53 72.39 0)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "pypilot_controller_footprints:TO-252-2-reduced-paste"
 			(at 176.53 82.55 0)
 			(effects
 				(font
@@ -4692,7 +4692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "pypilot_controller_footprints:TO-252-2-reduced-paste"
 			(at 54.61 59.69 0)
 			(effects
 				(font

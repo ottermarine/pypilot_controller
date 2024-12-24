@@ -2824,7 +2824,6 @@
 		)
 	)
 	(symbol
-		(lib_name "pypilot_components:tlp2361")
 		(lib_id "pypilot_components:tlp2361")
 		(at 172.72 54.61 0)
 		(mirror y)
