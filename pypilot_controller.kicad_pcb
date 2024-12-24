@@ -27215,7 +27215,7 @@
 	(footprint "Symbol:Symbol_CC-ShareAlike_CopperTop_Small"
 		(layer "B.Cu")
 		(uuid "5ec5b973-1be4-49d4-9f5a-e9fbc7ac7f3e")
-		(at 55.9 42.8 180)
+		(at 56 44.5 180)
 		(descr "Creative Commons symbol, CC-SA, copper layer, 5mm")
 		(tags "share-alike license graphic")
 		(property "Reference" "REF**"
@@ -27369,7 +27369,7 @@
 	(footprint "pypilot_controller_footprints:KiCad-Logo2_6mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "8b2c011d-26ce-471e-a18a-0916bccccab7")
-		(at 61.707487 36.117365 180)
+		(at 55.3 36 180)
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
@@ -28033,7 +28033,7 @@
 	(footprint "Symbol:Symbol_CreativeCommons_CopperTop_Type2_Small"
 		(layer "B.Cu")
 		(uuid "b7410575-25cc-4d2c-a8d7-89e76bbcb18a")
-		(at 67 42.8 180)
+		(at 67.1 44.5 180)
 		(descr "Creative Commons symbol, CC, copper layer, 5mm")
 		(tags "license graphic")
 		(property "Reference" "REF**"
@@ -28250,7 +28250,7 @@
 	(footprint "Symbol:OSHW-Logo_5.7x6mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "d1fed1ef-9732-4a51-b538-0d51f0a4ecc7")
-		(at 49.9 35.5 180)
+		(at 66.6 35.8 180)
 		(descr "Open Source Hardware Logo")
 		(tags "Logo OSHW")
 		(property "Reference" "REF**"
@@ -28838,7 +28838,7 @@
 	(footprint "Symbol:Symbol_CC-Attribution_CopperTop_Small"
 		(layer "B.Cu")
 		(uuid "e6e4c4cd-61f4-45d0-a5b6-8ce5102928aa")
-		(at 61.45032 42.8 180)
+		(at 61.55032 44.5 180)
 		(descr "Creative Commons symbol, CC-BY, copper layer, 5mm")
 		(property "Reference" "REF**"
 			(at 0 4 180)
@@ -29058,6 +29058,18 @@
 				(size 1 1)
 				(thickness 0.15)
 				(italic yes)
+			)
+			(justify left top mirror)
+		)
+	)
+	(gr_text "CC-BY-SA v4.0"
+		(at 69.5 39.7 0)
+		(layer "B.SilkS")
+		(uuid "21d5dfc7-1748-40e2-8de5-454292dbc898")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left top mirror)
 		)
