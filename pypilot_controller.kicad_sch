@@ -5653,7 +5653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pypilot_controller_footprints:BladeFuse-CarType"
+		(property "Footprint" "lcsc:FUSE-TH_BX503-35"
 			(at 44.45 32.258 90)
 			(effects
 				(font
@@ -5662,7 +5662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411201843_DEALON-BX503-35_C2935871.pdf"
 			(at 44.45 30.48 0)
 			(effects
 				(font
