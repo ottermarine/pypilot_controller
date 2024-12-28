@@ -25723,7 +25723,7 @@
 	(footprint "pypilot_controller_footprints:D_SMB_TVS"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00006667c6b2")
-		(at 11.85 31.48926 90)
+		(at 12.8 31.1 90)
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "TVS2"
