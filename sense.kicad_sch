@@ -6780,7 +6780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "20pF"
 			(at 159.004 70.866 90)
 			(effects
 				(font
@@ -6816,7 +6816,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1797"
+		(property "LCSC" "C1798"
 			(at 157.48 72.39 90)
 			(effects
 				(font
@@ -7002,7 +7002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18pF"
+		(property "Value" "20pF"
 			(at 159.004 60.706 90)
 			(effects
 				(font
@@ -7038,7 +7038,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1797"
+		(property "LCSC" "C1798"
 			(at 157.48 62.23 90)
 			(effects
 				(font
