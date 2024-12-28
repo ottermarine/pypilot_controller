@@ -5795,7 +5795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
+		(property "Footprint" "lcsc:CONN-TH_T44001"
 			(at 33.02 57.15 0)
 			(effects
 				(font
@@ -5869,7 +5869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
+		(property "Footprint" "lcsc:CONN-TH_T44001"
 			(at 33.02 30.48 0)
 			(effects
 				(font
@@ -5943,7 +5943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
+		(property "Footprint" "lcsc:CONN-TH_T44001"
 			(at 189.23 80.01 0)
 			(effects
 				(font
@@ -6017,7 +6017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pypilot_controller_footprints:screw_terminal"
+		(property "Footprint" "lcsc:CONN-TH_T44001"
 			(at 204.47 80.01 0)
 			(effects
 				(font
