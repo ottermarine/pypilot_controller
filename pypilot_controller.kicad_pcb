@@ -23637,7 +23637,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "Q4"
-			(at -3.243 0 180)
+			(at -5.2 0 180)
 			(layer "F.SilkS")
 			(uuid "f174c888-c67f-44a5-8b0d-9ebda381d483")
 			(effects
@@ -24055,7 +24055,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "Q2"
-			(at -3.243 0 180)
+			(at -5.4292 0 180)
 			(layer "F.SilkS")
 			(uuid "114d6e03-8c93-4b50-ad96-d2aee220c3c5")
 			(effects
@@ -24473,7 +24473,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "Q5"
-			(at -3.243 0 180)
+			(at -5.315 -0.4586 180)
 			(layer "F.SilkS")
 			(uuid "05a16305-9a60-4618-91d0-8e46eea660d5")
 			(effects
@@ -24891,7 +24891,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "Q3"
-			(at -3.243 0 0)
+			(at -5.3168 -0.2018 0)
 			(layer "F.SilkS")
 			(uuid "c1223110-0f94-44b6-ada6-c37dc3076be8")
 			(effects
@@ -25309,7 +25309,7 @@
 		(descr "TO-252/DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/")
 		(tags "DPAK TO-252 DPAK-3 TO-252-3 SOT-428")
 		(property "Reference" "Q1"
-			(at -4.8366 0.1182 0)
+			(at -5.2 0 0)
 			(layer "F.SilkS")
 			(uuid "45955f6f-40ec-4324-b8ba-fd5562a7b3ff")
 			(effects
