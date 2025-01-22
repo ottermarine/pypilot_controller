@@ -28027,7 +28027,7 @@
 		(path "/00000000-0000-0000-0000-000059d8755c/00000000-0000-0000-0000-00005d605e2f")
 		(sheetname "sense")
 		(sheetfile "sense.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 2.6 3.87)
 			(end -2.6 3.87)
