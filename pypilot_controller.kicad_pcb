@@ -23688,7 +23688,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "IRFR7440"
 			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "363d70fa-0d03-4342-b9c4-358bf8e12db3")
@@ -24106,7 +24106,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "IRFR7440"
 			(at 0 4.5 180)
 			(layer "F.Fab")
 			(uuid "56bf76a8-da84-4a4b-ae54-96acd28f768e")
@@ -24524,7 +24524,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "IRFR7440"
 			(at 0 4.5 180)
 			(layer "F.Fab")
 			(uuid "a6f7836f-ce25-43b4-948b-5da58a02ffbb")
@@ -24942,7 +24942,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "IRFR7440"
 			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "d8c00331-9b3c-43ce-a811-70801ac4f535")
@@ -25360,7 +25360,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "IRFR7440"
 			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "505593ee-0792-4264-b82c-84a1c41154c8")
