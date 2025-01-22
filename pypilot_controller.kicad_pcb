@@ -4028,7 +4028,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7434479"
+		(property "LCSC" "C7494857"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5163,7 +5163,7 @@
 				)
 			)
 		)
-		(property "LCSC" "*C72672, C51597"
+		(property "LCSC" "C72672"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16268,7 +16268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BERYL-Electronic-Tech-RG063M331LO10-20TA-1A1E_C357629.pdf"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18370,7 +18370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BERYL-Electronic-Tech-RG063M331LO10-20TA-1A1E_C357629.pdf"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20492,7 +20492,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238164"
+		(property "LCSC" "C481447"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20816,7 +20816,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238164"
+		(property "LCSC" "C481447"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21140,7 +21140,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238164"
+		(property "LCSC" "C481447"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22990,7 +22990,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C238164"
+		(property "LCSC" "C481447"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26721,7 +26721,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7434479"
+		(property "LCSC" "C7494857"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
