@@ -1118,7 +1118,6 @@
 	(hierarchical_label "Clutch"
 		(shape input)
 		(at 124.46 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
