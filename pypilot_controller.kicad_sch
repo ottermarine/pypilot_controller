@@ -4063,6 +4063,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 152.4 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "396ef12c-2b7d-4fd8-8cf4-4620b3729d83")
 		)
@@ -4133,6 +4142,15 @@
 			)
 		)
 		(property "LCSC" "C28323"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 152.4 77.47 0)
 			(effects
 				(font
@@ -4217,6 +4235,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 157.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af520840-6b0b-4d60-8329-ae577c40b154")
 		)
@@ -4286,6 +4313,15 @@
 		)
 		(property "LCSC" "C17714"
 			(at 158.75 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 158.75 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,6 +4405,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 158.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "809ddac6-3215-4385-9e48-3111d8c99857")
 		)
@@ -4438,6 +4483,15 @@
 		)
 		(property "LCSC" "C17714"
 			(at 157.48 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 157.48 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,6 +4656,15 @@
 			)
 		)
 		(property "LCSC" "C29823"
+			(at 252.73 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 252.73 80.01 0)
 			(effects
 				(font
@@ -5571,6 +5634,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 243.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c4ef13c-341a-4b79-af75-efb6acb5a203")
 		)
@@ -6131,6 +6203,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9440efaa-6f37-4f2a-ac1e-3956b1684727")
 		)
@@ -6209,6 +6290,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 124.46 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b2679d3-4425-406a-a83e-a16cb1c4e13b")
 		)
@@ -6271,6 +6361,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 17.78 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 17.78 187.96 0)
 			(effects
 				(font
@@ -6343,6 +6442,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 36.83 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
@@ -6399,6 +6507,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 17.78 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 17.78 193.04 0)
 			(effects
 				(font
@@ -6549,6 +6666,15 @@
 			)
 		)
 		(property "Description" "JLC tooling hole"
+			(at 36.83 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 36.83 187.96 0)
 			(effects
 				(font

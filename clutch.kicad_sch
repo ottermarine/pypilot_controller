@@ -1501,6 +1501,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c61cea1-64b3-4931-a0c9-519359c93956")
 		)
@@ -1570,6 +1579,15 @@
 		)
 		(property "LCSC" "C17714"
 			(at 132.08 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
