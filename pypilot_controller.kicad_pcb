@@ -26519,8 +26519,8 @@
 		)
 		(pad "" np_thru_hole oval
 			(at 0 0)
-			(size 3.2 1)
-			(drill oval 3.2 1)
+			(size 3.2 1.2)
+			(drill oval 3.2 1.2)
 			(layers "F&B.Cu" "*.Mask")
 			(uuid "b0035adb-6e0d-45bb-ae22-a0f45b68c1e0")
 		)
@@ -27354,8 +27354,8 @@
 		)
 		(pad "" np_thru_hole oval
 			(at 0 0)
-			(size 3.2 1)
-			(drill oval 3.2 1)
+			(size 3.2 1.2)
+			(drill oval 3.2 1.2)
 			(layers "F&B.Cu" "*.Mask")
 			(uuid "309714b8-d8de-4710-bb65-bef00a6da149")
 		)
