@@ -6072,7 +6072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011e02de-2ff7-4af5-8a1a-6ef493c4f682")
-		(property "Reference" "H5"
+		(property "Reference" "H1"
 			(at 20.32 186.7478 0)
 			(effects
 				(font
@@ -6120,7 +6120,7 @@
 		(instances
 			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "H5")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6200,7 +6200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1008dfae-657f-4b39-8059-b9ea3878fabd")
-		(property "Reference" "H6"
+		(property "Reference" "H2"
 			(at 20.32 191.8278 0)
 			(effects
 				(font
@@ -6248,71 +6248,7 @@
 		(instances
 			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 17.78 182.88 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a17d0fe-58ed-46ac-b63e-390e339be74e")
-		(property "Reference" "H4"
-			(at 20.32 181.6678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 20.32 184.0921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 17.78 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 17.78 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pypilot_controller"
-				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6396,70 +6332,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 17.78 172.72 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6be47da1-4235-46e2-bce3-650f642954ac")
-		(property "Reference" "H2"
-			(at 20.32 171.5078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 20.32 173.9321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 17.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 17.78 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pypilot_controller"
-				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pypilot_components:Tooling")
 		(at 36.83 187.96 0)
 		(unit 1)
@@ -6518,70 +6390,6 @@
 			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
 					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 17.78 177.8 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "994eace1-4dd0-446d-a6b2-d33af50cf4a6")
-		(property "Reference" "H3"
-			(at 20.32 176.5878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 20.32 179.0121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 17.78 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 17.78 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pypilot_controller"
-				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6648,70 +6456,6 @@
 			(project "pypilot_controller"
 				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 17.78 167.64 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1b4a634-0dbe-43e1-b98d-edad1cee39bf")
-		(property "Reference" "H1"
-			(at 20.32 166.4278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 20.32 168.8521 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 17.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 17.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 17.78 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/3485d22d-0932-4f13-a5db-09c3f9bc7038"
-					(reference "H1")
 					(unit 1)
 				)
 			)
