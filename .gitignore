@@ -44,6 +44,8 @@ fp-info-cache
 /outputs/*-B_Silkscreen.*
 /outputs/*-In*_Cu.*
 /outputs/*.drl
+/outputs/*.svg
 /venv/
 /jlcpcb/
 /old/
+/extra/
