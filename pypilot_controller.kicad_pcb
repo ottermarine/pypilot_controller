@@ -26102,7 +26102,7 @@
 	(footprint "MountingHole:MountingHole_2.5mm"
 		(layer "F.Cu")
 		(uuid "3bdd9344-6ccf-45e9-83b5-d67b65e17c92")
-		(at 76.0476 37.084)
+		(at 75.7 37.084)
 		(descr "Mounting Hole 2.5mm, no annular")
 		(tags "mounting hole 2.5mm no annular")
 		(property "Reference" "H1"
@@ -26205,11 +26205,11 @@
 				)
 			)
 		)
-		(pad "" np_thru_hole circle
+		(pad "" np_thru_hole oval
 			(at 0 0)
-			(size 2.5 2.5)
-			(drill 2.5)
-			(layers "*.Cu" "*.Mask")
+			(size 3.2 1)
+			(drill oval 3.2 1)
+			(layers "F&B.Cu" "*.Mask")
 			(uuid "b0035adb-6e0d-45bb-ae22-a0f45b68c1e0")
 		)
 	)
@@ -26924,7 +26924,7 @@
 	(footprint "MountingHole:MountingHole_2.5mm"
 		(layer "F.Cu")
 		(uuid "9283a939-5977-4b9c-89c8-ff0f42ed2555")
-		(at 76.0476 43.7388)
+		(at 75.7 43.7388)
 		(descr "Mounting Hole 2.5mm, no annular")
 		(tags "mounting hole 2.5mm no annular")
 		(property "Reference" "H2"
@@ -27027,11 +27027,11 @@
 				)
 			)
 		)
-		(pad "" np_thru_hole circle
+		(pad "" np_thru_hole oval
 			(at 0 0)
-			(size 2.5 2.5)
-			(drill 2.5)
-			(layers "*.Cu" "*.Mask")
+			(size 3.2 1)
+			(drill oval 3.2 1)
+			(layers "F&B.Cu" "*.Mask")
 			(uuid "309714b8-d8de-4710-bb65-bef00a6da149")
 		)
 	)
