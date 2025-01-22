@@ -1634,6 +1634,19 @@
 				)
 			)
 		)
+		(property "FitTest" "N"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ec44973-34e2-4fe5-ae10-f897a8330336")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*Fuse*")
 		(path "/00000000-0000-0000-0000-00005e314e76")
 		(sheetname "Root")
@@ -2034,6 +2047,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d90b076b-80f6-48b5-912b-719436bdebb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c765a80b-addc-456a-8cd0-349c81dcfc39")
 			(effects
 				(font
 					(size 1 1)
@@ -4041,6 +4067,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de19047d-1528-4e60-96be-d1ba4fe6f8b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000059d8755c/00000000-0000-0000-0000-00005a27aeb9")
 		(sheetname "sense")
@@ -4547,6 +4586,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa8eeba4-27e2-43af-ad7e-805f68b7a8b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000059d8755c/00000000-0000-0000-0000-00005a29a59f")
 		(sheetname "sense")
@@ -4831,6 +4883,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8c63ca99-ac2d-4f2b-b4a9-57ef934993c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b22b2ef-76d0-4577-b450-a86aaafc4b73")
 			(effects
 				(font
 					(size 1 1)
@@ -5169,6 +5234,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1222f9ee-50c4-4773-8668-c0bcd2f164f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f6c1115-501d-4d23-8358-ebc03e62b678")
 			(effects
 				(font
 					(size 1 1)
@@ -9090,6 +9168,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18b38805-ad8f-474b-8e47-9a74a003fcc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/00000000-0000-0000-0000-00005ab669a9")
 		(sheetname "Root")
@@ -9407,6 +9498,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a2c0a93-b603-47bc-8f11-9f83c66f0932")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "564f7556-e057-4841-9409-c51636b235d0")
 			(effects
 				(font
 					(size 1 1)
@@ -16307,6 +16411,19 @@
 				)
 			)
 		)
+		(property "FitTest" "?"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1851849-b83a-419c-b0d8-1bd10cc41af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-00005a9dc496")
 		(sheetname "Root")
@@ -18402,6 +18519,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c2ef9c0c-6c91-4353-a347-023927ef490a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "?"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e25eee30-3911-4d4e-b946-5ebc60b9770a")
 			(effects
 				(font
 					(size 1 1)
@@ -20505,6 +20635,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a235ef5-c2ec-404c-8ca8-99c356f8528c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e32f296")
 		(sheetname "Root")
@@ -20829,6 +20972,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "592b33a5-29d3-4dae-88ae-b3a92a2781e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e32ee02")
 		(sheetname "Root")
@@ -21146,6 +21302,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e391154e-287b-4243-9d66-f73bfb70f956")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cae2a961-23bd-4876-9b3a-74485fd3b86a")
 			(effects
 				(font
 					(size 1 1)
@@ -21482,6 +21651,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a44b82e2-c865-4f64-8072-9cf904bccfe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005a92181a")
 		(sheetname "Root")
 		(sheetfile "pypilot_controller.kicad_sch")
@@ -21811,6 +21993,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3315d21e-dda7-4dbb-a9cd-ceaeb63f854c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005a92238e")
 		(sheetname "Root")
 		(sheetfile "pypilot_controller.kicad_sch")
@@ -22133,6 +22328,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0f86763-2c9d-4eea-8c17-966494b72766")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7762b526-9e45-4dc3-8b2e-b7f8ced38d8f")
 			(effects
 				(font
 					(size 1 1)
@@ -23003,6 +23211,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "876d8bd9-9f9b-4f0f-bf79-96185e018e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-00005e3e8d1e")
 		(sheetname "Root")
@@ -23322,6 +23543,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c5810feb-f88b-47fa-a001-ee570299a291")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f205acb0-5c16-4080-a78c-36ea032a06b5")
 			(effects
 				(font
 					(size 1 1)
@@ -23748,6 +23982,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c06dae93-417d-4155-b76f-1417e93e28b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005a8f65c0")
 		(sheetname "Root")
 		(sheetfile "pypilot_controller.kicad_sch")
@@ -24159,6 +24406,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cce65728-48f9-400f-81ae-2e24638a567c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2afbedf4-109a-4d1e-a3cc-837b9bf10942")
 			(effects
 				(font
 					(size 1 1)
@@ -24584,6 +24844,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "094279ea-6145-4a0b-bf02-cbf1b55f361c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005a99788a")
 		(sheetname "Root")
 		(sheetfile "pypilot_controller.kicad_sch")
@@ -24995,6 +25268,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b0482b47-7fbb-4519-a497-3a9bc28d0580")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de3fd824-510f-4a85-a10a-9ab550697bad")
 			(effects
 				(font
 					(size 1 1)
@@ -25420,6 +25706,19 @@
 				)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adcca4f3-23b8-4e19-8a8a-a611cd430440")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005a926095")
 		(sheetname "Root")
 		(sheetfile "pypilot_controller.kicad_sch")
@@ -25834,6 +26133,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ea65745-5507-481c-91ee-29d9ac58c27b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72f07770-25db-44db-8c16-e3d254aaf10b")
 			(effects
 				(font
 					(size 1 1)
@@ -26613,6 +26925,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5ffedc8-28c0-4ae1-9da6-e957a7fb50d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a130a8d3-755c-4953-9722-973e53b9a672")
 			(effects
 				(font
 					(size 1 1)
@@ -28023,6 +28348,20 @@
 				(justify mirror)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c8544fdd-3ead-4990-9e84-832cdecb1aa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-000059d8755c/00000000-0000-0000-0000-00005d605e2f")
 		(sheetname "sense")
@@ -28675,6 +29014,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e2ae5b4a-aeac-46d3-974a-d4e15085153b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "FitTest" "Y"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d99d98fd-c92a-4145-ba46-ef156087feeb")
 			(effects
 				(font
 					(size 1 1)
