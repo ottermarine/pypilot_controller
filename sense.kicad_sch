@@ -4510,6 +4510,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69c6539c-05f1-4108-b811-ae607d6c5b34")
 		)
@@ -4580,6 +4589,15 @@
 			)
 		)
 		(property "LCSC" "C7494857"
+			(at 198.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 198.12 80.01 0)
 			(effects
 				(font
@@ -4801,6 +4819,15 @@
 			)
 		)
 		(property "LCSC" "C19190477"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 196.85 124.46 0)
 			(effects
 				(font
@@ -5240,6 +5267,15 @@
 			)
 		)
 		(property "LCSC" "C19190477"
+			(at 196.85 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 196.85 147.32 0)
 			(effects
 				(font
@@ -5738,6 +5774,15 @@
 			)
 		)
 		(property "LCSC" "C192301"
+			(at 200.66 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 200.66 52.07 0)
 			(effects
 				(font
@@ -7265,6 +7310,15 @@
 			)
 		)
 		(property "LCSC" "C68136"
+			(at 44.45 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 44.45 31.75 0)
 			(effects
 				(font
@@ -8977,6 +9031,15 @@
 			)
 		)
 		(property "LCSC" "C725695"
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitTest" "Y"
 			(at 77.47 31.75 0)
 			(effects
 				(font

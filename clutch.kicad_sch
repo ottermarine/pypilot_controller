@@ -1337,6 +1337,15 @@
 				(hide yes)
 			)
 		)
+		(property "FitTest" "Y"
+			(at 157.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea23132e-61e6-4ce6-815d-f9fd248e2bdd")
 		)
