@@ -519,7 +519,7 @@
       "plot": "outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pypilot_controller.step",
       "svg": "",
       "vrml": ""
     },
